@@ -1,0 +1,45 @@
+# MiniGPT
+
+A GPT-style Large Language Model built from scratch using PyTorch.
+
+## 🎯 Goal
+
+The goal of this project is to understand how Large Language Models work internally by implementing the major components of a GPT-style Transformer.
+
+## 🧠 Concepts
+
+- Tokenization
+- Token embeddings
+- Positional embeddings
+- Self-attention
+- Causal attention
+- Multi-head attention
+- Feed-forward networks
+- Layer normalization
+- Residual connections
+- Transformer blocks
+- GPT architecture
+- Language model training
+- Text generation
+- Sampling
+- Fine-tuning
+- Perplexity
+
+## 🏗️ Architecture
+
+```text
+Text
+ ↓
+Tokenizer
+ ↓
+Token IDs
+ ↓
+Embeddings
+ ↓
+Transformer
+ ↓
+GPT
+ ↓
+Next Token Prediction
+ ↓
+Generated Text
