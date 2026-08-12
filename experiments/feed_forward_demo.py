@@ -5,8 +5,8 @@ from model.feed_forward import FeedForwardNetwork
 
 batch_size = 1
 sequence_length = 5
-embedding_dim = 64
-hidden_dim = 256
+embedding_dim = 8
+hidden_dim = 32
 
 x = torch.randn(batch_size, sequence_length, embedding_dim)
 
