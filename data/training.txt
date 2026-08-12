@@ -1,0 +1,19 @@
+Learning begins with examples. A small language model reads one character at a time and learns to predict the next character.
+
+Artificial intelligence is a field of computer science. Machine learning gives a program examples, feedback, and a way to improve its parameters. A neural network turns numbers into useful representations through many learned transformations.
+
+Transformers use attention to decide which earlier tokens are useful for the current token. Causal attention prevents a prediction from seeing future text. This restriction lets a transformer generate text one token after another.
+
+Programming is a careful conversation between a person and a computer. Clear code explains an idea, tests check that the idea works, and small experiments make mistakes easier to understand.
+
+Data science combines questions, data, models, and evaluation. A model can fit a training set while still failing on new data, so validation data is important. Validation measures how well learning transfers to text the model did not update on.
+
+Learning begins with examples. A small language model reads one character at a time and learns to predict the next character.
+
+Artificial intelligence is a field of computer science. Machine learning gives a program examples, feedback, and a way to improve its parameters. A neural network turns numbers into useful representations through many learned transformations.
+
+Transformers use attention to decide which earlier tokens are useful for the current token. Causal attention prevents a prediction from seeing future text. This restriction lets a transformer generate text one token after another.
+
+Programming is a careful conversation between a person and a computer. Clear code explains an idea, tests check that the idea works, and small experiments make mistakes easier to understand.
+
+Data science combines questions, data, models, and evaluation. A model can fit a training set while still failing on new data, so validation data is important. Validation measures how well learning transfers to text the model did not update on.
