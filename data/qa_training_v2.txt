@@ -1,0 +1,2039 @@
+Category: Artificial Intelligence
+Question: What is artificial intelligence?
+Answer: Artificial intelligence is a field of computer science focused on building systems that perform tasks associated with human intelligence.
+
+Category: Artificial Intelligence
+Question: What are common applications of artificial intelligence?
+Answer: Common applications of artificial intelligence include recommendation systems, medical image analysis, speech recognition, and fraud detection.
+
+Category: Artificial Intelligence
+Question: What is an intelligent agent?
+Answer: An intelligent agent is a system that observes an environment and chooses actions to achieve goals.
+
+Category: Artificial Intelligence
+Question: What is a search algorithm in AI?
+Answer: A search algorithm explores possible actions or states to find a solution to a problem.
+
+Category: Artificial Intelligence
+Question: What is knowledge representation?
+Answer: Knowledge representation is the way an AI system stores facts, relationships, and rules so it can use them for reasoning.
+
+Category: Artificial Intelligence
+Question: What is reasoning in artificial intelligence?
+Answer: Reasoning is the process of using information and rules to draw conclusions or choose actions.
+
+Category: Artificial Intelligence
+Question: What is an expert system?
+Answer: An expert system is a program that uses rules and knowledge from a specialized domain to make decisions.
+
+Category: Artificial Intelligence
+Question: What is a rule-based AI system?
+Answer: A rule-based AI system makes decisions by applying explicit if-then rules written by people.
+
+Category: Artificial Intelligence
+Question: What is symbolic AI?
+Answer: Symbolic AI represents knowledge with symbols and logical rules rather than learning patterns only from data.
+
+Category: Artificial Intelligence
+Question: What is narrow AI?
+Answer: Narrow AI is an AI system designed for a limited task, such as recognizing images or translating text.
+
+Category: Artificial Intelligence
+Question: What is general AI?
+Answer: General AI is a hypothetical system that could learn and perform many intellectual tasks across different domains.
+
+Category: Artificial Intelligence
+Question: What is AI ethics?
+Answer: AI ethics studies how to design and use AI systems fairly, safely, transparently, and responsibly.
+
+Category: Artificial Intelligence
+Question: What is algorithmic bias?
+Answer: Algorithmic bias is an unfair pattern in an algorithm's results that can arise from data, design choices, or deployment context.
+
+Category: Artificial Intelligence
+Question: Why does AI need data?
+Answer: Many AI systems need data because examples help them learn patterns that guide later predictions or decisions.
+
+Category: Artificial Intelligence
+Question: What is an AI limitation?
+Answer: An AI limitation is a task or condition where a system may fail because of limited data, weak assumptions, or changing environments.
+
+Category: Artificial Intelligence
+Question: What is computer vision?
+Answer: Computer vision is the area of AI that helps computers interpret images and video.
+
+Category: Artificial Intelligence
+Question: What is speech recognition?
+Answer: Speech recognition converts spoken audio into text or commands that a computer can process.
+
+Category: Artificial Intelligence
+Question: What is decision making in AI?
+Answer: Decision making in AI is the selection of an action based on goals, observations, and estimated outcomes.
+
+Category: Artificial Intelligence
+Question: What is a state space?
+Answer: A state space is the set of possible situations that can occur while solving a problem.
+
+Category: Artificial Intelligence
+Question: What is an AI model?
+Answer: An AI model is a mathematical or rule-based system that transforms inputs into predictions, decisions, or generated outputs.
+
+Category: Artificial Intelligence
+Question: What is the Turing Test?
+Answer: The Turing Test measures a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, a human.
+
+Category: Artificial Intelligence
+Question: Who proposed the Turing Test?
+Answer: The Turing Test was proposed by Alan Turing in his 1950 paper 'Computing Machinery and Intelligence'.
+
+Category: Artificial Intelligence
+Question: What is the Dartmouth Workshop?
+Answer: The Dartmouth Workshop of 1956 was the founding event of artificial intelligence as an academic field.
+
+Category: Artificial Intelligence
+Question: What is an AI winter?
+Answer: An AI winter is a period of reduced funding and interest in artificial intelligence research due to unmet promises.
+
+Category: Artificial Intelligence
+Question: What are heuristics in AI search?
+Answer: A heuristic is a rule of thumb or function that estimates the cost to reach a goal, helping search algorithms find paths faster.
+
+Category: Artificial Intelligence
+Question: What is blind search in AI?
+Answer: Blind search, or uninformed search, explores state spaces without domain-specific knowledge, relying only on path state descriptions.
+
+Category: Artificial Intelligence
+Question: What is informed search in AI?
+Answer: Informed search uses domain-specific knowledge via heuristics to find solutions more efficiently than blind search.
+
+Category: Artificial Intelligence
+Question: What is A* search?
+Answer: A* search is an informed pathfinding algorithm that uses both path cost and heuristics to find the shortest path.
+
+Category: Artificial Intelligence
+Question: What is depth-first search in AI?
+Answer: Depth-first search is a search algorithm that explores as deep as possible along each branch before backtracking.
+
+Category: Artificial Intelligence
+Question: What is breadth-first search in AI?
+Answer: Breadth-first search is a search algorithm that explores all neighbor nodes at the current depth before moving to the next level.
+
+Category: Artificial Intelligence
+Question: What is adversarial search?
+Answer: Adversarial search is used in competitive environments like games, where multiple agents make opposing moves to win.
+
+Category: Artificial Intelligence
+Question: What is minimax algorithm?
+Answer: Minimax is a decision-making algorithm used in game theory to minimize the maximum possible loss for a player.
+
+Category: Artificial Intelligence
+Question: What is alpha-beta pruning?
+Answer: Alpha-beta pruning is an optimization technique for minimax search that eliminates branches that cannot influence the final decision.
+
+Category: Artificial Intelligence
+Question: What is a semantic network?
+Answer: A semantic network represents knowledge through a graph of nodes representing concepts and edges representing relations.
+
+Category: Artificial Intelligence
+Question: What is an ontology in AI?
+Answer: An ontology is a formal representation of categories, properties, and relations between concepts in a domain.
+
+Category: Artificial Intelligence
+Question: What is fuzzy logic?
+Answer: Fuzzy logic is an approach to computing based on degrees of truth rather than the usual true-or-false binary logic.
+
+Category: Artificial Intelligence
+Question: What is cognitive computing?
+Answer: Cognitive computing involves technology platforms that simulate human thought processes to solve complex problems.
+
+Category: Artificial Intelligence
+Question: What is autonomous behavior?
+Answer: Autonomous behavior refers to a system's ability to act independently based on its own sensing and decision algorithms.
+
+Category: Artificial Intelligence
+Question: What is reactive AI?
+Answer: Reactive AI is the simplest form of AI that responds to immediate inputs without storing past experiences or memories.
+
+Category: Artificial Intelligence
+Question: What is limited memory AI?
+Answer: Limited memory AI can store past experiences or historical data for a short time to improve decision-making processes.
+
+Category: Artificial Intelligence
+Question: What is theory of mind AI?
+Answer: Theory of mind AI is a hypothetical class of AI that understands human emotions, beliefs, and thoughts, interacting socially.
+
+Category: Artificial Intelligence
+Question: What is self-aware AI?
+Answer: Self-aware AI is a hypothetical level of AI that possesses self-consciousness, self-awareness, and internal representations of self.
+
+Category: Artificial Intelligence
+Question: What is computer reasoning?
+Answer: Computer reasoning is the logical deduction of new facts from stored rules and assertions in knowledge bases.
+
+Category: Artificial Intelligence
+Question: What is inference engine?
+Answer: An inference engine applies logical rules to a knowledge base to deduce new information or find solutions.
+
+Category: Artificial Intelligence
+Question: What is forward chaining?
+Answer: Forward chaining is a data-driven reasoning method starting with known facts and applying rules to extract more conclusions.
+
+Category: Artificial Intelligence
+Question: What is backward chaining?
+Answer: Backward chaining is a goal-driven reasoning method starting with a hypothesis and working backward to find supporting facts.
+
+Category: Artificial Intelligence
+Question: What is natural language understanding?
+Answer: Natural language understanding is a subfield of NLP focused on reading comprehension and parsing semantic meaning from text.
+
+Category: Artificial Intelligence
+Question: What is robotics in AI?
+Answer: Robotics is a branch of engineering and AI focused on designing, building, and programming physical devices to automate tasks.
+
+Category: Artificial Intelligence
+Question: What is planning in AI?
+Answer: AI planning is the execution of search strategies to generate a sequence of actions that achieves a target goal state.
+
+Category: Artificial Intelligence
+Question: What is multi-agent system?
+Answer: A multi-agent system is a computerized environment composed of multiple interacting intelligent agents negotiating goals.
+
+Category: Machine Learning
+Question: What is machine learning?
+Answer: Machine learning is a branch of artificial intelligence in which models learn patterns from data to make predictions or decisions.
+
+Category: Machine Learning
+Question: What is supervised learning?
+Answer: Supervised learning trains a model using examples that include both inputs and correct target labels.
+
+Category: Machine Learning
+Question: What is unsupervised learning?
+Answer: Unsupervised learning finds structure in data that does not have target labels.
+
+Category: Machine Learning
+Question: What is reinforcement learning?
+Answer: Reinforcement learning teaches an agent through rewards and penalties that follow its actions.
+
+Category: Machine Learning
+Question: What is classification?
+Answer: Classification is a machine learning task that assigns an input to one of several categories.
+
+Category: Machine Learning
+Question: What is regression in machine learning?
+Answer: Regression is a machine learning task that predicts a continuous numerical value.
+
+Category: Machine Learning
+Question: What is clustering?
+Answer: Clustering is an unsupervised learning task that groups similar data points together based on features.
+
+Category: Machine Learning
+Question: What is overfitting?
+Answer: Overfitting happens when a model learns training data noise too well, causing it to perform poorly on new data.
+
+Category: Machine Learning
+Question: What is underfitting?
+Answer: Underfitting happens when a model is too simple to learn the underlying patterns in the training data.
+
+Category: Machine Learning
+Question: What is the bias-variance tradeoff?
+Answer: The bias-variance tradeoff balances model simplicity (bias) and sensitivity to training data variations (variance).
+
+Category: Machine Learning
+Question: What is a feature in machine learning?
+Answer: A feature is an individual measurable property or characteristic of a data point used as input to a model.
+
+Category: Machine Learning
+Question: What is a model parameter?
+Answer: A model parameter is a configuration variable internal to the model that is learned directly from the training data.
+
+Category: Machine Learning
+Question: What is a model hyperparameter?
+Answer: A hyperparameter is a setting configured before training begins that controls the learning process, like learning rate.
+
+Category: Machine Learning
+Question: What is cross-validation?
+Answer: Cross-validation is a technique that splits data into subsets to train and test the model multiple times for evaluation.
+
+Category: Machine Learning
+Question: What is a decision tree?
+Answer: A decision tree is a model that splits data into branches based on feature values to make predictions.
+
+Category: Machine Learning
+Question: What is a random forest?
+Answer: A random forest is an ensemble model that combines predictions from multiple decision trees to improve accuracy.
+
+Category: Machine Learning
+Question: What is gradient descent?
+Answer: Gradient descent is an optimization algorithm that adjusts parameters step-by-step to minimize a loss function.
+
+Category: Machine Learning
+Question: What is a learning rate?
+Answer: The learning rate is a hyperparameter determining the step size taken during optimization updates.
+
+Category: Machine Learning
+Question: What is regularization?
+Answer: Regularization adds a penalty term to the loss function to prevent overfitting by keeping parameter values small.
+
+Category: Machine Learning
+Question: What is a support vector machine?
+Answer: A support vector machine finds the boundary line or hyperplane that maximizes space between classes in feature space.
+
+Category: Machine Learning
+Question: What is K-Means clustering?
+Answer: K-Means is an unsupervised clustering algorithm that divides data points into K clusters based on Euclidean distance to centroids.
+
+Category: Machine Learning
+Question: What is a confusion matrix?
+Answer: A confusion matrix is a table summarizing classification model performance by comparing predicted and actual labels.
+
+Category: Machine Learning
+Question: What is precision in machine learning?
+Answer: Precision measures the proportion of correctly predicted positive cases out of all predicted positive cases.
+
+Category: Machine Learning
+Question: What is recall in machine learning?
+Answer: Recall, or sensitivity, measures the proportion of correctly predicted positive cases out of all actual positive cases.
+
+Category: Machine Learning
+Question: What is the F1-Score?
+Answer: The F1-Score is the harmonic mean of precision and recall, offering a single balanced metric for classification.
+
+Category: Machine Learning
+Question: What is ensemble learning?
+Answer: Ensemble learning combines predictions from multiple individual models to create a stronger, more robust model.
+
+Category: Machine Learning
+Question: What is bagging in machine learning?
+Answer: Bagging, or bootstrap aggregating, trains multiple models independently on random subsets of training data and averages outputs.
+
+Category: Machine Learning
+Question: What is boosting in machine learning?
+Answer: Boosting trains models sequentially, where each new model focuses on correcting the errors made by previous models.
+
+Category: Machine Learning
+Question: What is L1 regularization?
+Answer: L1 regularization, or Lasso, penalizes the absolute value of weights, often driving some weights to zero for feature selection.
+
+Category: Machine Learning
+Question: What is L2 regularization?
+Answer: L2 regularization, or Ridge, penalizes the squared value of weights, keeping weight magnitudes small but non-zero.
+
+Category: Machine Learning
+Question: What is stochastic gradient descent?
+Answer: Stochastic gradient descent calculates loss gradients and updates parameters using a single random example at a time.
+
+Category: Machine Learning
+Question: What is mini-batch gradient descent?
+Answer: Mini-batch gradient descent calculates gradients and updates parameters using a small batch of training examples.
+
+Category: Machine Learning
+Question: What is feature engineering?
+Answer: Feature engineering is the process of transforming raw data features to make learning easier for machine learning models.
+
+Category: Machine Learning
+Question: What is feature scaling?
+Answer: Feature scaling normalizes the range of independent variables so features contribute equally during gradient calculations.
+
+Category: Machine Learning
+Question: What is K-Nearest Neighbors?
+Answer: K-Nearest Neighbors is a classification or regression algorithm predicting outputs based on the majority label of closest neighbors.
+
+Category: Machine Learning
+Question: What is Naive Bayes?
+Answer: Naive Bayes is a classification algorithm based on Bayes' Theorem that assumes independence among all features.
+
+Category: Machine Learning
+Question: What is a cost function?
+Answer: A cost function, or loss function, measures the difference between actual target labels and predicted model outputs.
+
+Category: Machine Learning
+Question: What is mean squared error?
+Answer: Mean squared error measures the average of the squared differences between predicted values and actual target values.
+
+Category: Machine Learning
+Question: What is logistic regression?
+Answer: Logistic regression is a classification algorithm that predicts categorical class probabilities using a sigmoid function.
+
+Category: Machine Learning
+Question: What is linear regression?
+Answer: Linear regression is a regression algorithm modeling the relationship between dependent and independent variables using a straight line.
+
+Category: Machine Learning
+Question: What is dimensionality reduction?
+Answer: Dimensionality reduction reduces the number of random variables under consideration by obtaining principal variables.
+
+Category: Machine Learning
+Question: What is principal component analysis?
+Answer: Principal component analysis is a dimensionality reduction technique projecting high-dimensional data onto orthogonal directions of variance.
+
+Category: Machine Learning
+Question: What is semi-supervised learning?
+Answer: Semi-supervised learning combines a small amount of labeled data with a large amount of unlabeled data during training.
+
+Category: Machine Learning
+Question: What is data leakage in ML?
+Answer: Data leakage occurs when information from outside the training dataset is used to train the model, invalidating evaluations.
+
+Category: Machine Learning
+Question: What is a hyperparameter sweep?
+Answer: A hyperparameter sweep evaluates model performance across different combinations of hyperparameter configurations.
+
+Category: Machine Learning
+Question: What is the training set?
+Answer: The training set is the subset of the dataset used by a machine learning algorithm to learn model parameter weights.
+
+Category: Machine Learning
+Question: What is the validation set?
+Answer: The validation set is used to tune hyperparameters and evaluate model progress during training, avoiding training bias.
+
+Category: Machine Learning
+Question: What is the test set?
+Answer: The test set is a separate data subset used to provide an unbiased final evaluation of a fully-trained model.
+
+Category: Machine Learning
+Question: What is baseline model?
+Answer: A baseline model is a simple heuristic or model used as a comparison standard to evaluate complex models.
+
+Category: Machine Learning
+Question: What is label encoding?
+Answer: Label encoding converts categorical labels into numerical integer values sequentially.
+
+Category: Deep Learning
+Question: What is deep learning?
+Answer: Deep learning is a subset of machine learning based on artificial neural networks with multiple hidden layers.
+
+Category: Deep Learning
+Question: What is an activation function?
+Answer: An activation function introduces non-linear properties to neural networks, letting them learn complex decision boundaries.
+
+Category: Deep Learning
+Question: What is the ReLU function?
+Answer: The Rectified Linear Unit, or ReLU, activation function outputs the input directly if positive, and zero otherwise.
+
+Category: Deep Learning
+Question: What is backpropagation?
+Answer: Backpropagation calculates loss gradients with respect to weights using the chain rule, propagating errors backward.
+
+Category: Deep Learning
+Question: What is gradient clipping?
+Answer: Gradient clipping scales loss gradients when their norm exceeds a threshold, preventing exploding gradients.
+
+Category: Deep Learning
+Question: What is the vanishing gradient problem?
+Answer: The vanishing gradient problem occurs when gradients shrink close to zero during backpropagation, stopping model weights from updating.
+
+Category: Deep Learning
+Question: What is dropout in deep learning?
+Answer: Dropout randomly deactivates a fraction of neurons during training, which prevents co-adaptation and reduces overfitting.
+
+Category: Deep Learning
+Question: What is batch normalization?
+Answer: Batch normalization scales activation distributions within a mini-batch to make neural network training faster and more stable.
+
+Category: Deep Learning
+Question: What is transfer learning?
+Answer: Transfer learning uses weights learned on a large dataset for a different but related task.
+
+Category: Deep Learning
+Question: What is fine-tuning?
+Answer: Fine-tuning continues training a pre-trained model on new data to adapt its weights to a target task.
+
+Category: Deep Learning
+Question: What is the sigmoid function?
+Answer: The sigmoid function maps any real-valued input to a value between 0 and 1, often representing probabilities.
+
+Category: Deep Learning
+Question: What is the tanh function?
+Answer: The hyperbolic tangent, or tanh, function maps real-valued inputs to a range between -1 and 1, zero-centering outputs.
+
+Category: Deep Learning
+Question: What is softmax function?
+Answer: Softmax converts a vector of raw scores or logits into a probability distribution summing to 1.0.
+
+Category: Deep Learning
+Question: What is exploding gradient problem?
+Answer: The exploding gradient problem occurs when gradients grow exponentially large, causing weight updates to become unstable.
+
+Category: Deep Learning
+Question: What is weight initialization?
+Answer: Weight initialization defines starting parameter weights before training to avoid vanishing or exploding gradients.
+
+Category: Deep Learning
+Question: What is Xavier initialization?
+Answer: Xavier initialization scales weights based on input and output connection sizes to keep variance stable.
+
+Category: Deep Learning
+Question: What is He initialization?
+Answer: He initialization scales starting weights for ReLU activation layers to prevent vanishing gradients.
+
+Category: Deep Learning
+Question: What is an optimization algorithm in DL?
+Answer: An optimization algorithm adjusts model weights iteratively to minimize calculated loss values.
+
+Category: Deep Learning
+Question: What is Adam optimizer?
+Answer: Adam combines adaptive learning rates and momentum to update neural network weights efficiently.
+
+Category: Deep Learning
+Question: What is AdamW optimizer?
+Answer: AdamW is a modification of Adam that decouples weight decay from gradient updates for better regularization.
+
+Category: Deep Learning
+Question: What is learning rate warmup?
+Answer: Warmup increases the learning rate slowly from zero to its target value at the start of training to stabilize early steps.
+
+Category: Deep Learning
+Question: What is learning rate decay?
+Answer: Learning rate decay reduces the learning rate over time to help the model settle into a loss minimum.
+
+Category: Deep Learning
+Question: What is cosine annealing scheduler?
+Answer: A cosine annealing scheduler decays the learning rate following a cosine curve to guide parameter updates.
+
+Category: Deep Learning
+Question: What is cross-entropy loss?
+Answer: Cross-entropy loss measures the difference between actual target labels and predicted probability distributions.
+
+Category: Deep Learning
+Question: What is categorical cross-entropy?
+Answer: Categorical cross-entropy is a loss function used in multi-class classification to evaluate probability prediction errors.
+
+Category: Deep Learning
+Question: What is binary cross-entropy?
+Answer: Binary cross-entropy is a loss function used in binary classification to measure distance between prediction and truth.
+
+Category: Deep Learning
+Question: What is epoch in training?
+Answer: An epoch represents one complete pass of the entire training dataset through the neural network.
+
+Category: Deep Learning
+Question: What is batch size in DL?
+Answer: Batch size is the number of training examples processed together before updating model weights.
+
+Category: Deep Learning
+Question: What is step or iteration?
+Answer: An iteration is one forward and backward pass update using a single batch of training examples.
+
+Category: Deep Learning
+Question: What is learning rate scheduler?
+Answer: A scheduler updates the learning rate dynamically based on current epoch counts or validation performance.
+
+Category: Deep Learning
+Question: What is early stopping?
+Answer: Early stopping terminates training when validation loss stops improving to prevent overfitting.
+
+Category: Deep Learning
+Question: What is weight decay?
+Answer: Weight decay is a regularization method adding L2 penalty directly to parameters to keep weights small.
+
+Category: Deep Learning
+Question: What is PyTorch?
+Answer: PyTorch is an open-source deep learning framework providing tensor computation and automatic differentiation.
+
+Category: Deep Learning
+Question: What is a tensor in PyTorch?
+Answer: A tensor is a multi-dimensional array of numbers supporting GPU acceleration and automatic gradient calculation.
+
+Category: Deep Learning
+Question: What is autograd in PyTorch?
+Answer: Autograd is PyTorch's automatic differentiation engine calculating parameter gradients during backpropagation.
+
+Category: Deep Learning
+Question: What is model.train()?
+Answer: In PyTorch, model.train() puts the model in training mode, enabling layers like dropout and batch normalization.
+
+Category: Deep Learning
+Question: What is model.eval()?
+Answer: In PyTorch, model.eval() puts the model in evaluation mode, disabling layers like dropout for prediction.
+
+Category: Deep Learning
+Question: What is torch.no_grad()?
+Answer: In PyTorch, torch.no_grad() disables gradient tracking to save memory and compute during inference.
+
+Category: Deep Learning
+Question: What is optimizer.zero_grad()?
+Answer: optimizer.zero_grad() resets old calculated gradients to zero before computing a new training step.
+
+Category: Deep Learning
+Question: What is loss.backward()?
+Answer: loss.backward() computes gradients of the loss with respect to all trainable model parameters.
+
+Category: Deep Learning
+Question: What is optimizer.step()?
+Answer: optimizer.step() updates model parameters based on currently calculated gradients and learning algorithms.
+
+Category: Deep Learning
+Question: What is feedforward neural network?
+Answer: A feedforward network is a basic neural architecture where connections propagate forward without loops.
+
+Category: Deep Learning
+Question: What is multi-layer perceptron?
+Answer: A multi-layer perceptron is a feedforward network with at least one hidden layer and non-linear activations.
+
+Category: Deep Learning
+Question: What is supervised fine-tuning?
+Answer: Supervised fine-tuning trains a pre-trained language model on structured instruction examples using labeled inputs.
+
+Category: Deep Learning
+Question: What is parameter-efficient fine-tuning?
+Answer: PEFT methods adapt pre-trained models to new tasks by updating only a small fraction of parameters.
+
+Category: Deep Learning
+Question: What is LoRA?
+Answer: Low-Rank Adaptation, or LoRA, injects trainable rank-decomposition matrices into model layers to reduce training parameters.
+
+Category: Deep Learning
+Question: What is quantization?
+Answer: Quantization reduces the numerical precision of weights, like converting 32-bit floats to 8-bit integers, to save memory.
+
+Category: Deep Learning
+Question: What is model checkpoint?
+Answer: A model checkpoint is a saved file containing trained weights and optimizer state to resume training.
+
+Category: Deep Learning
+Question: What is standard learning rate in DL?
+Answer: There is no single standard, but 1e-3, 3e-4, and 1e-4 are common starting choices depending on model size.
+
+Category: Deep Learning
+Question: What is loss monitoring?
+Answer: Loss monitoring tracks training and validation loss curves to diagnose overfitting or convergence issues.
+
+Category: Neural Networks
+Question: What is a neuron in a neural network?
+Answer: A neuron is a basic computational unit that weights inputs, adds a bias, and applies an activation function.
+
+Category: Neural Networks
+Question: What is a weight in a neural network?
+Answer: A weight is a learnable parameter that determines the strength of connection between two neurons.
+
+Category: Neural Networks
+Question: What is a bias in a neural network?
+Answer: A bias is a learnable parameter added to the weighted input sum to shift the activation function output.
+
+Category: Neural Networks
+Question: What is a neural network layer?
+Answer: A layer is a collection of parallel neurons processing input signals at a specific level of depth.
+
+Category: Neural Networks
+Question: What is a hidden layer?
+Answer: A hidden layer is any neural layer located between the input layer and the output layer.
+
+Category: Neural Networks
+Question: What is a convolutional neural network?
+Answer: A convolutional neural network is a network architecture that uses convolution layers to extract spatial features.
+
+Category: Neural Networks
+Question: What is a recurrent neural network?
+Answer: A recurrent neural network is an architecture with feedback loops designed for processing sequential data.
+
+Category: Neural Networks
+Question: What is an LSTM?
+Answer: Long Short-Term Memory, or LSTM, is a recurrent cell with gating mechanisms to prevent vanishing gradients.
+
+Category: Neural Networks
+Question: What is a GRU?
+Answer: Gated Recurrent Unit, or GRU, is a simplified recurrent cell using update and reset gates to manage memory states.
+
+Category: Neural Networks
+Question: What is a generative adversarial network?
+Answer: A generative adversarial network trained via a minimax game between a generator and a discriminator.
+
+Category: Neural Networks
+Question: What is the input layer?
+Answer: The input layer is the initial neural layer receiving raw data values directly from the dataset.
+
+Category: Neural Networks
+Question: What is the output layer?
+Answer: The output layer is the final neural layer producing classification scores, probabilities, or continuous target values.
+
+Category: Neural Networks
+Question: What is fully connected layer?
+Answer: A fully connected, or linear, layer connects every input unit to every output unit in the layer.
+
+Category: Neural Networks
+Question: What is feedforward propagation?
+Answer: Feedforward propagation is the calculation process moving signals forward from input layer to output layer.
+
+Category: Neural Networks
+Question: What is convolutional layer?
+Answer: A convolutional layer applies learnable filters over inputs to generate feature maps highlighting edges or textures.
+
+Category: Neural Networks
+Question: What is pooling layer?
+Answer: A pooling layer downsamples feature map dimensions to reduce parameters and make representation translation-invariant.
+
+Category: Neural Networks
+Question: What is max pooling?
+Answer: Max pooling extracts the maximum value within a filter window to downsample feature representations.
+
+Category: Neural Networks
+Question: What is average pooling?
+Answer: Average pooling calculates the mean value within a filter window to downsample feature representations.
+
+Category: Neural Networks
+Question: What is receptive field?
+Answer: The receptive field is the local input region that a specific neural network feature depends on.
+
+Category: Neural Networks
+Question: What is feature map?
+Answer: A feature map is the output activation array of a convolutional layer highlighting spatial features.
+
+Category: Neural Networks
+Question: What is generator in GAN?
+Answer: The generator is a network inside a GAN producing synthetic data samples that mimic the training distribution.
+
+Category: Neural Networks
+Question: What is discriminator in GAN?
+Answer: The discriminator is a classification network inside a GAN distinguishing real training samples from synthetic generated ones.
+
+Category: Neural Networks
+Question: What is autoencoder?
+Answer: An autoencoder is an unsupervised network compressing inputs to a latent representation and reconstructing them at outputs.
+
+Category: Neural Networks
+Question: What is encoder in autoencoder?
+Answer: The encoder is the compression part of an autoencoder mapping high-dimensional inputs to low-dimensional latent space.
+
+Category: Neural Networks
+Question: What is decoder in autoencoder?
+Answer: The decoder is the reconstruction part mapping low-dimensional latent space representations back to original inputs.
+
+Category: Neural Networks
+Question: What is latent space?
+Answer: Latent space is a low-dimensional hidden feature space representing compressed abstract properties of inputs.
+
+Category: Neural Networks
+Question: What is variational autoencoder?
+Answer: A variational autoencoder is a probabilistic autoencoder mapping inputs to a continuous mean and variance latent distribution.
+
+Category: Neural Networks
+Question: What is residual connection?
+Answer: A residual connection skips one or more layers, adding original inputs directly to layer outputs to solve vanishing gradients.
+
+Category: Neural Networks
+Question: What is skip connection?
+Answer: A skip connection is another term for residual connection, allowing gradients to flow directly during backpropagation.
+
+Category: Neural Networks
+Question: What is U-Net?
+Answer: U-Net is a convolutional network featuring skip connections between encoder and decoder sections, used in medical segmentation.
+
+Category: Neural Networks
+Question: What is neural network capacity?
+Answer: Capacity measures the size and complexity of functions a neural network is capable of learning.
+
+Category: Neural Networks
+Question: What is recurrent cell?
+Answer: A recurrent cell is a computational unit inside RNNs containing internal state registers updated at each sequence step.
+
+Category: Neural Networks
+Question: What is hidden state in RNN?
+Answer: The hidden state is a memory vector inside RNNs retaining context information from previous sequence positions.
+
+Category: Neural Networks
+Question: What is cell state in LSTM?
+Answer: The cell state is a long-term memory pathway inside LSTMs regulated by forget, input, and output gates.
+
+Category: Neural Networks
+Question: What is forget gate?
+Answer: The forget gate inside an LSTM cell controls what fraction of past cell state information should be discarded.
+
+Category: Neural Networks
+Question: What is input gate?
+Answer: The input gate inside an LSTM controls what new feature information should be added to the cell state.
+
+Category: Neural Networks
+Question: What is output gate?
+Answer: The output gate inside an LSTM controls what information from the cell state should populate the next hidden state.
+
+Category: Neural Networks
+Question: What is bidirectional RNN?
+Answer: A bidirectional RNN processes sequence data in both forward and backward directions to gather complete context.
+
+Category: Neural Networks
+Question: What is deep neural network?
+Answer: A deep neural network is any network with multiple hidden layers between input and output representations.
+
+Category: Neural Networks
+Question: What is perceptron?
+Answer: A perceptron is the earliest single-neuron model computing weighted inputs and applying binary threshold steps.
+
+Category: NLP
+Question: What is natural language processing?
+Answer: Natural language processing is an AI subfield that builds programs to read, analyze, and generate human language.
+
+Category: NLP
+Question: What is tokenization?
+Answer: Tokenization splits a raw text string into a sequence of smaller units like words, subwords, or characters.
+
+Category: NLP
+Question: What is stemming?
+Answer: Stemming is a crude heuristic cutting word suffixes to reduce them to a base stem, like mapping 'arguing' to 'argu'.
+
+Category: NLP
+Question: What is lemmatization?
+Answer: Lemmatization uses dictionary analysis to resolve words to their dictionary base form, like mapping 'better' to 'good'.
+
+Category: NLP
+Question: What is stop word removal?
+Answer: Stop word removal discards common placeholder words like 'the', 'is', or 'and' to focus on key keywords.
+
+Category: NLP
+Question: What is a bag-of-words model?
+Answer: A bag-of-words model represents text by counting token occurrences while ignoring grammar rules and word order.
+
+Category: NLP
+Question: What is TF-IDF?
+Answer: TF-IDF ranks word importance by balancing how often a term appears in a document against its frequency across a corpus.
+
+Category: NLP
+Question: What is a word embedding?
+Answer: A word embedding maps text words to continuous vectors where spatial proximity represents semantic similarity.
+
+Category: NLP
+Question: What is Word2Vec?
+Answer: Word2Vec is a predictive model that learns vector word representations by training on sliding context windows.
+
+Category: NLP
+Question: What is the attention mechanism in NLP?
+Answer: The attention mechanism lets a sequence model weight focus dynamically on different input tokens when predicting output tokens.
+
+Category: NLP
+Question: What is sentiment analysis?
+Answer: Sentiment analysis is an NLP task determining emotional tone, like positive, negative, or neutral, of input text.
+
+Category: NLP
+Question: What is named entity recognition?
+Answer: Named entity recognition identifies and classifies proper nouns in text into categories like names, dates, or places.
+
+Category: NLP
+Question: What is part-of-speech tagging?
+Answer: Part-of-speech tagging labels words in sentences with their grammatical role, like noun, verb, or adjective.
+
+Category: NLP
+Question: What is language modeling?
+Answer: Language modeling is the task of predicting the probability of a sequence of words or next tokens.
+
+Category: NLP
+Question: What is text summarization?
+Answer: Text summarization compresses a long text document into a shorter summary while preserving key factual details.
+
+Category: NLP
+Question: What is machine translation?
+Answer: Machine translation is the automated process of converting text or speech from one natural language into another.
+
+Category: NLP
+Question: What is an n-gram?
+Answer: An n-gram is a contiguous sequence of n items or words extracted from a given text sample.
+
+Category: NLP
+Question: What is a unigram?
+Answer: A unigram is a single item or word extracted from a text sequence, corresponding to 1-gram.
+
+Category: NLP
+Question: What is a bigram?
+Answer: A bigram is a sequence of two contiguous words or tokens extracted from a text sample.
+
+Category: NLP
+Question: What is a trigram?
+Answer: A trigram is a sequence of three contiguous words or tokens extracted from a text sample.
+
+Category: NLP
+Question: What is sequence-to-sequence model?
+Answer: A sequence-to-sequence model maps variable-length input sequences to variable-length output sequences, like in translation.
+
+Category: NLP
+Question: What is recurrent encoder-decoder?
+Answer: A recurrent encoder-decoder uses one RNN to encode inputs into context vectors and another RNN to generate outputs.
+
+Category: NLP
+Question: What is GloVe?
+Answer: Global Vectors, or GloVe, is an unsupervised model learning word embeddings by analyzing global co-occurrence statistics.
+
+Category: NLP
+Question: What is subword tokenization?
+Answer: Subword tokenization splits rare words into smaller frequent units, solving out-of-vocabulary problems.
+
+Category: NLP
+Question: What is BPE tokenizer in NLP?
+Answer: Byte Pair Encoding, or BPE, is a subword tokenizer iteratively merging the most frequent adjacent character pairs.
+
+Category: NLP
+Question: What is WordPiece?
+Answer: WordPiece is a subword tokenizer similar to BPE that chooses merges based on maximizing likelihood of training data.
+
+Category: NLP
+Question: What is out-of-vocabulary token?
+Answer: An out-of-vocabulary token is any word not present in the model's vocabulary, mapped to '<UNK>' during tokenization.
+
+Category: NLP
+Question: What is syntax parsing?
+Answer: Syntax parsing analyzes grammatical structure of sentences to build trees representing structural relationships.
+
+Category: NLP
+Question: What is coreference resolution?
+Answer: Coreference resolution finds all expressions in text that refer to the same physical entity or person.
+
+Category: NLP
+Question: What is text generation?
+Answer: Text generation is the task of producing readable natural language sequences using predictive models.
+
+Category: NLP
+Question: What is search query parsing?
+Answer: Query parsing analyzes search text to extract key intent keywords, entities, and search filters.
+
+Category: NLP
+Question: What is semantic analysis?
+Answer: Semantic analysis focuses on understanding literal meanings and relations of words and phrases in context.
+
+Category: NLP
+Question: What is speech-to-text?
+Answer: Speech-to-text converts acoustic audio signals into readable text transcriptions using neural networks.
+
+Category: NLP
+Question: What is text-to-speech?
+Answer: Text-to-speech synthesizes artificial human speech audio from input text characters or subwords.
+
+Category: NLP
+Question: What is corpus in NLP?
+Answer: A corpus is a structured collection of written or spoken texts used for linguistic analysis and model training.
+
+Category: NLP
+Question: What is perplexity in language modeling?
+Answer: Perplexity is a measurement of how well a probability model predicts sample text, calculated as exponent of loss.
+
+Category: NLP
+Question: What is vocabulary size in NLP?
+Answer: Vocabulary size is the total count of unique tokens or subwords that a model is configured to recognize.
+
+Category: NLP
+Question: What is masked language modeling?
+Answer: Masked language modeling hides random tokens in input sequences and trains models to predict them using context.
+
+Category: NLP
+Question: What is causal language modeling?
+Answer: Causal language modeling trains models to predict next tokens using only preceding tokens as context.
+
+Category: NLP
+Question: What is FastText?
+Answer: FastText is an extension of Word2Vec representing words as bags of character n-grams to handle unseen words.
+
+Category: Computer Vision
+Question: What is the primary goal of computer vision?
+Answer: Computer vision is an AI subfield that trains computers to extract semantic understanding from digital images or videos.
+
+Category: Computer Vision
+Question: What is image classification?
+Answer: Image classification is a vision task that assigns a single label to an input image.
+
+Category: Computer Vision
+Question: What is object detection?
+Answer: Object detection locates and classifies multiple objects in an image, drawing bounding boxes around them.
+
+Category: Computer Vision
+Question: What is image segmentation?
+Answer: Image segmentation partitions a digital image into multiple sets of pixels representing objects or boundaries.
+
+Category: Computer Vision
+Question: What is semantic segmentation?
+Answer: Semantic segmentation classifies every pixel in an image into a category class without distinguishing instances.
+
+Category: Computer Vision
+Question: What is instance segmentation?
+Answer: Instance segmentation locates and segments every individual object class instance in an image.
+
+Category: Computer Vision
+Question: What is edge detection?
+Answer: Edge detection finds sharp boundaries in brightness or color to outline objects in images.
+
+Category: Computer Vision
+Question: What is image augmentation?
+Answer: Image augmentation applies random transformations like rotation or cropping to expand training datasets.
+
+Category: Computer Vision
+Question: What is optical flow?
+Answer: Optical flow measures the pattern of apparent motion of image objects between consecutive video frames.
+
+Category: Computer Vision
+Question: What is face recognition?
+Answer: Face recognition is a vision technology mapping and identifying human faces from digital images.
+
+Category: Computer Vision
+Question: What is a pixel?
+Answer: A pixel is the smallest controllable element of a digital image represented by color coordinates.
+
+Category: Computer Vision
+Question: What is RGB color model?
+Answer: RGB represents colors as combinations of Red, Green, and Blue intensity channels.
+
+Category: Computer Vision
+Question: What is grayscale image?
+Answer: A grayscale image carries only intensity light information, represented by a single channel.
+
+Category: Computer Vision
+Question: What is image kernel?
+Answer: An image kernel, or filter matrix, is a small grid applied across pixels to perform effects like blurring.
+
+Category: Computer Vision
+Question: What is Gaussian blur?
+Answer: Gaussian blur is an image-filtering operation using a Gaussian function to smooth out noise.
+
+Category: Computer Vision
+Question: What is feature extraction in vision?
+Answer: Feature extraction converts raw pixels into high-level descriptors like edges, shapes, or textures.
+
+Category: Computer Vision
+Question: What is convolutional feature extractor?
+Answer: A convolutional feature extractor uses stacked convolution layers to construct representation maps from images.
+
+Category: Computer Vision
+Question: What is YOLO algorithm?
+Answer: You Only Look Once, or YOLO, is an object detection model predicting classes and bounding boxes in one step.
+
+Category: Computer Vision
+Question: What is R-CNN?
+Answer: Regions with CNN, or R-CNN, proposed object regions first before applying CNN classifiers to them.
+
+Category: Computer Vision
+Question: What is ResNet in vision?
+Answer: ResNet is a deep CNN model utilizing residual skip connections to train hundreds of layers successfully.
+
+Category: Computer Vision
+Question: What is image resolution?
+Answer: Image resolution refers to the total detail pixel count of an image, represented as width times height.
+
+Category: Computer Vision
+Question: What is CNN kernel size?
+Answer: Kernel size refers to the width and height dimensions of learnable filters in convolution layers.
+
+Category: Computer Vision
+Question: What is stride in convolution?
+Answer: Stride is the step size value specifying how many pixels the filter shifts when sliding over inputs.
+
+Category: Computer Vision
+Question: What is padding in convolution?
+Answer: Padding adds empty pixels around input borders to control the spatial size of output feature maps.
+
+Category: Computer Vision
+Question: What is dilation in convolution?
+Answer: Dilation inserts spaces between filter kernel pixels to expand the receptive field without adding parameters.
+
+Category: Computer Vision
+Question: What is transpose convolution?
+Answer: Transpose convolution, or deconvolution, is an upsampling layer expanding spatial feature dimensions.
+
+Category: Computer Vision
+Question: What is bounding box?
+Answer: A bounding box is a rectangular coordinate boundary outlining located objects in object detection.
+
+Category: Computer Vision
+Question: What is intersection over union?
+Answer: IoU measures the overlap ratio between predicted bounding boxes and actual ground truth boxes.
+
+Category: Computer Vision
+Question: What is mean average precision in detection?
+Answer: mAP is the average precision score calculated across multiple object classes and IoU thresholds.
+
+Category: Computer Vision
+Question: What is anchor box?
+Answer: Anchor boxes are predefined reference shapes of various aspect ratios used to guide object detection search.
+
+Category: Computer Vision
+Question: What is non-maximum suppression?
+Answer: NMS is a post-processing technique eliminating overlapping duplicate bounding boxes, keeping the highest confidence ones.
+
+Category: Computer Vision
+Question: What is Sobel filter?
+Answer: The Sobel filter computes gradient approximations of image intensity to highlight vertical and horizontal edges.
+
+Category: Computer Vision
+Question: What is Canny edge detector?
+Answer: Canny is a multi-stage edge detection algorithm utilizing gradients, non-maximum suppression, and thresholding.
+
+Category: Computer Vision
+Question: What is image thresholding?
+Answer: Thresholding converts grayscale images into binary black-and-white formats based on a cutoff intensity value.
+
+Category: Computer Vision
+Question: What is histogram equalization?
+Answer: Histogram equalization adjusts image contrast by spreading out pixel intensity frequencies.
+
+Category: Computer Vision
+Question: What is morphological operation?
+Answer: Morphological operations apply structuring elements to binary images to erode or dilate shape boundaries.
+
+Category: Computer Vision
+Question: What is erosion in morphology?
+Answer: Erosion strips pixels from object boundaries in binary images, shrinking identified shapes.
+
+Category: Computer Vision
+Question: What is dilation in morphology?
+Answer: Dilation adds pixels to object boundaries in binary images, expanding identified shapes.
+
+Category: Computer Vision
+Question: What is visual SLAM?
+Answer: Visual SLAM maps unknown environments while simultaneously tracking camera position coordinates.
+
+Category: Computer Vision
+Question: What is image restoration?
+Answer: Image restoration is the task of recovering clean, high-quality images from degraded, noisy inputs.
+
+Category: Transformers
+Question: What is a Transformer model?
+Answer: A Transformer is a neural network architecture based entirely on self-attention mechanisms to process sequences.
+
+Category: Transformers
+Question: What is self-attention?
+Answer: Self-attention calculates representation weights by comparing each token against all other tokens in a sequence.
+
+Category: Transformers
+Question: What is multi-head attention?
+Answer: Multi-head attention runs self-attention multiple times in parallel, letting the model focus on different representation aspects.
+
+Category: Transformers
+Question: What is causal attention?
+Answer: Causal attention uses masking to prevent tokens from attending to future tokens, preserving autoregressive decoding.
+
+Category: Transformers
+Question: Why do Transformers need positional encodings?
+Answer: Transformers process all tokens simultaneously, so positional encodings are added to inject sequence order information.
+
+Category: Transformers
+Question: What are Query, Key, and Value vectors?
+Answer: Queries represent search criteria, Keys represent index tags, and Values contain target features in attention computations.
+
+Category: Transformers
+Question: What is scaled dot-product attention?
+Answer: It computes attention weights using dot-products of Query and Key vectors scaled by square root of head dimension.
+
+Category: Transformers
+Question: What is feed-forward sublayer in Transformer?
+Answer: The feed-forward sublayer applies two linear projections and a non-linear activation to each position token independently.
+
+Category: Transformers
+Question: What is residual connection in Transformer block?
+Answer: A residual connection adds sublayer inputs directly to outputs, allowing stable gradient flow through deep blocks.
+
+Category: Transformers
+Question: What is layer normalization in Transformer?
+Answer: Layer normalization normalizes values across features at each token position, stabilizing hidden state distributions.
+
+Category: Transformers
+Question: What is encoder-decoder attention?
+Answer: Encoder-decoder attention lets the decoder layer query representations produced by the encoder stack.
+
+Category: Transformers
+Question: What is decoder-only Transformer?
+Answer: A decoder-only Transformer stack uses causal masking to predict next tokens, used in models like GPT.
+
+Category: Transformers
+Question: What is encoder-only Transformer?
+Answer: An encoder-only Transformer processes complete input sequences simultaneously with bidirectional attention, like in BERT.
+
+Category: Transformers
+Question: What is cross-attention?
+Answer: Cross-attention mixes information from two different sequence sources, mapping inputs to targets.
+
+Category: Transformers
+Question: What is attention mask?
+Answer: An attention mask tells self-attention to ignore certain token positions, like padding positions.
+
+Category: Transformers
+Question: What is scaled dot-product formula?
+Answer: Attention(Q,K,V) = softmax( (Q @ K.T) / sqrt(d_k) ) @ V.
+
+Category: Transformers
+Question: Why scale attention by square root of d_k?
+Answer: Scaling prevents dot-products from growing extremely large in high dimensions, keeping softmax gradients stable.
+
+Category: Transformers
+Question: What is context length in Transformer?
+Answer: Context length is the maximum number of sequence tokens that the model can process in a single forward pass.
+
+Category: Transformers
+Question: What is positional embedding?
+Answer: A positional embedding is a learnable or fixed vector added to token embeddings to track positions.
+
+Category: Transformers
+Question: What is rotary positional embedding?
+Answer: Rotary embeddings, or RoPE, apply a rotation matrix to Query and Key vectors to track relative distance.
+
+Category: Transformers
+Question: What is absolute positional embedding?
+Answer: Absolute embeddings assign a fixed unique position vector to each index location, regardless of relative distance.
+
+Category: Transformers
+Question: What is relative positional embedding?
+Answer: Relative positional embeddings represent distances between tokens directly during attention calculations.
+
+Category: Transformers
+Question: What is Transformer block?
+Answer: A Transformer block contains a multi-head self-attention layer followed by a feed-forward network layer.
+
+Category: Transformers
+Question: What is pre-LN architecture?
+Answer: Pre-LN normalizes sublayer inputs before applying attention or feed-forward operations, improving training stability.
+
+Category: Transformers
+Question: What is post-LN architecture?
+Answer: Post-LN normalizes sublayer outputs after residual additions, which was the original Transformer design.
+
+Category: Transformers
+Question: What is feed-forward expansion factor?
+Answer: The expansion factor is the ratio of hidden dimensions in the FFN relative to the embedding dimensions, typically 4x.
+
+Category: Transformers
+Question: What is SwiGLU activation?
+Answer: SwiGLU is a gated activation layer replacing standard ReLU in modern Transformer feed-forward networks.
+
+Category: Transformers
+Question: What is causal mask?
+Answer: A causal mask is a lower-triangular matrix of zeros and negative infinities masking future token updates.
+
+Category: Transformers
+Question: What is multi-query attention?
+Answer: Multi-query attention uses a single Key and Value head across all Query heads to reduce memory usage during generation.
+
+Category: Transformers
+Question: What is grouped-query attention?
+Answer: Grouped-query attention groups Query heads to share Key and Value heads, balancing memory and performance.
+
+Category: Transformers
+Question: What is KV cache?
+Answer: The KV cache stores previously calculated Key and Value vectors during generation to avoid recalculating them.
+
+Category: Transformers
+Question: What is flash attention?
+Answer: Flash attention is a hardware-friendly attention implementation that avoids materializing the massive N x N attention matrix.
+
+Category: Transformers
+Question: What is visual Transformer?
+Answer: A visual Transformer, or ViT, splits images into patch sequences and processes them using a Transformer encoder.
+
+Category: Transformers
+Question: What is auto-regressive generation?
+Answer: Autoregressive generation predicts outputs one token at a time, appending generated tokens back to inputs.
+
+Category: Transformers
+Question: What is sequence length limit?
+Answer: The sequence limit is the constraint imposed by positional embeddings on the maximum size of input tokens.
+
+Category: Transformers
+Question: What is representation learning in Transformers?
+Answer: Representation learning maps tokens to contextual vectors representing syntax and semantics.
+
+Category: Transformers
+Question: What is cross-entropy loss in Transformers?
+Answer: It is the standard objective loss used to evaluate next-token prediction probabilities.
+
+Category: Transformers
+Question: What is weight tying in Transformers?
+Answer: Weight tying shares parameters between the token embedding matrix and the final LM head projection matrix.
+
+Category: Transformers
+Question: What is token level classification?
+Answer: Token level classification predicts labels for each individual token index in a sequence.
+
+Category: Transformers
+Question: What is sequence classification?
+Answer: Sequence classification aggregates token features to predict a single label for the entire input sequence.
+
+Category: LLMs
+Question: What is a large language model?
+Answer: A large language model is a deep Transformer model trained on massive text corpora to understand and generate language.
+
+Category: LLMs
+Question: What is prompt engineering?
+Answer: Prompt engineering is the design of input text instructions to guide LLMs toward generating desired outputs.
+
+Category: LLMs
+Question: What is zero-shot learning?
+Answer: Zero-shot learning is a model's ability to complete a task without seeing any prior examples.
+
+Category: LLMs
+Question: What is few-shot learning?
+Answer: Few-shot learning provides a few input-output examples inside the prompt to guide model behavior.
+
+Category: LLMs
+Question: What is hallucination in LLMs?
+Answer: Hallucination is when an LLM generates text that is grammatically fluent but factually incorrect or unsupported.
+
+Category: LLMs
+Question: What is reinforcement learning from human feedback?
+Answer: RLHF tunes language models using reward models trained on human preferences to align outputs.
+
+Category: LLMs
+Question: What is retrieval-augmented generation?
+Answer: RAG retrieves relevant documents from an external database and adds them to the prompt context to ground generation.
+
+Category: LLMs
+Question: What is the context window of an LLM?
+Answer: The context window is the maximum number of tokens the model can process at once, limited by memory.
+
+Category: LLMs
+Question: What is temperature in LLM generation?
+Answer: Temperature scales output logits during generation; lower values make predictions more deterministic, while higher values increase creativity.
+
+Category: LLMs
+Question: What is instruction tuning?
+Answer: Instruction tuning trains a base model on instruction-following datasets to improve task compliance.
+
+Category: LLMs
+Question: What is GPT?
+Answer: Generative Pre-trained Transformer, or GPT, is a decoder-only LLM family designed for autoregressive text generation.
+
+Category: LLMs
+Question: What is BERT?
+Answer: BERT is an encoder-only Transformer model trained on masked language tasks for bidirectional sequence representation.
+
+Category: LLMs
+Question: What is RoBERTa?
+Answer: RoBERTa is an optimized BERT variant trained with dynamic masking on more data for longer periods.
+
+Category: LLMs
+Question: What is T5 model?
+Answer: T5 is an encoder-decoder Transformer that casts all NLP tasks into a text-to-text format.
+
+Category: LLMs
+Question: What is LLaMA model?
+Answer: LLaMA is a series of open-access foundation models developed by Meta, optimized for performance and efficiency.
+
+Category: LLMs
+Question: What is a base model?
+Answer: A base model is a foundation model pre-trained on raw text corpora, requiring fine-tuning for specific tasks.
+
+Category: LLMs
+Question: What is alignment in LLMs?
+Answer: Alignment ensures that LLMs generate helpful, honest, and harmless responses that match human values.
+
+Category: LLMs
+Question: What is token limit?
+Answer: The token limit is the maximum number of input and output tokens allowed in a single API call or model pass.
+
+Category: LLMs
+Question: What is API inference?
+Answer: API inference sends input prompts to hosted servers running LLMs and receives generated text responses.
+
+Category: LLMs
+Question: What is hosted inference?
+Answer: Hosted inference runs models on remote cloud infrastructure, exposing them through API endpoints.
+
+Category: LLMs
+Question: What is local inference?
+Answer: Local inference runs language models directly on local hardware like personal workstations.
+
+Category: LLMs
+Question: What is pre-training?
+Answer: Pre-training trains a model on large unlabeled text datasets to learn basic language rules and factual concepts.
+
+Category: LLMs
+Question: What is downstream task?
+Answer: A downstream task is a specific target application like translation or summarization that a pre-trained model is adapted to.
+
+Category: LLMs
+Question: What is chain-of-thought prompting?
+Answer: Chain-of-thought prompting asks the model to generate intermediate reasoning steps before producing a final answer.
+
+Category: LLMs
+Question: What is system prompt?
+Answer: A system prompt is a high-level instruction defining the behavior, constraints, and personality of an LLM agent.
+
+Category: LLMs
+Question: What is RLHF reward model?
+Answer: A reward model is trained on human preference data to predict scores for generated text options.
+
+Category: LLMs
+Question: What is PPO in RLHF?
+Answer: Proximal Policy Optimization, or PPO, is the reinforcement learning algorithm updating model policies during RLHF alignment.
+
+Category: LLMs
+Question: What is DPO?
+Answer: Direct Preference Optimization, or DPO, optimizes model weights on human preferences directly without training separate reward models.
+
+Category: LLMs
+Question: What is parameter scale?
+Answer: Parameter scale refers to the total count of learnable variables in an LLM, typically measured in billions (B).
+
+Category: LLMs
+Question: What is emergent capability?
+Answer: An emergent capability is a task-solving behavior that appears only when models reach a certain parameter scale.
+
+Category: LLMs
+Question: What is token output speed?
+Answer: Output speed measures how many tokens the model generates per second, influenced by model size and cache optimization.
+
+Category: LLMs
+Question: What is semantic drift in LLMs?
+Answer: Semantic drift is the shift in representation meanings that can happen during continuous fine-tuning on limited datasets.
+
+Category: LLMs
+Question: What is vector database in RAG?
+Answer: A vector database indexes document chunks by embedding vectors, supporting fast similarity searches during retrieval.
+
+Category: LLMs
+Question: What is document chunking?
+Answer: Document chunking splits long source text documents into smaller pieces to fit within context window limits.
+
+Category: LLMs
+Question: What is dense retrieval?
+Answer: Dense retrieval uses vector search to locate documents based on semantic concept matches rather than keyword matches.
+
+Category: LLMs
+Question: What is sparse retrieval?
+Answer: Sparse retrieval locates documents using exact keyword matches, typically evaluated using the BM25 algorithm.
+
+Category: LLMs
+Question: What is hybrid retrieval?
+Answer: Hybrid retrieval combines dense vector search and sparse keyword search to improve document retrieval relevance.
+
+Category: LLMs
+Question: What is generation grounding?
+Answer: Grounding uses retrieved reference facts to ensure generated answers do not contain fabrications.
+
+Category: LLMs
+Question: What is context stuffing?
+Answer: Context stuffing adds excessive reference text to the prompt, which can lead to models ignoring middle sections.
+
+Category: LLMs
+Question: What is token consumption cost?
+Answer: Consumption cost measures the operational expense of processing input and output tokens on hosted cloud services.
+
+Category: Python
+Question: What is Python?
+Answer: Python is a high-level, interpreted programming language known for readability, clear syntax, and extensive libraries.
+
+Category: Python
+Question: What is a list comprehension?
+Answer: A list comprehension is a concise syntax to create lists by evaluating expressions over an iterable.
+
+Category: Python
+Question: What is a dictionary comprehension?
+Answer: A dictionary comprehension is a concise syntax to create dictionaries using key-value pair expressions over an iterable.
+
+Category: Python
+Question: What is PEP 8?
+Answer: PEP 8 is Python's style guide, outlining conventions for code formatting, naming, and layout.
+
+Category: Python
+Question: What is a docstring?
+Answer: A docstring is a string literal placed as the first statement in a class, function, or module to document code.
+
+Category: Python
+Question: What is a virtual environment in Python?
+Answer: A virtual environment is an isolated directory containing its own Python installation and library packages to avoid conflicts.
+
+Category: Python
+Question: What is pip?
+Answer: pip is the standard package manager for Python, used to install and manage libraries from the Python Package Index.
+
+Category: Python
+Question: What is list vs tuple?
+Answer: A list is mutable and defined with square brackets, while a tuple is immutable and defined with parentheses.
+
+Category: Python
+Question: What is a generator in Python?
+Answer: A generator is an iterator function utilizing the yield keyword to produce values lazily on demand.
+
+Category: Python
+Question: What is a decorator in Python?
+Answer: A decorator is a function modifying the behavior of another function or class wrapper without changing its source.
+
+Category: Python
+Question: What is lambda function?
+Answer: A lambda function is a small, anonymous, single-expression function defined using the lambda keyword.
+
+Category: Python
+Question: What is the Global Interpreter Lock?
+Answer: The GIL is a mutex in CPython that prevents multiple native threads from executing Python bytecodes at once.
+
+Category: Python
+Question: What is CPython?
+Answer: CPython is the default, most widely used reference implementation of the Python programming language written in C.
+
+Category: Python
+Question: What is mutable object?
+Answer: A mutable object is an object whose internal state or values can be modified after creation, like a list or dict.
+
+Category: Python
+Question: What is immutable object?
+Answer: An immutable object cannot have its state or values modified after creation, like a string, int, or tuple.
+
+Category: Python
+Question: What is dictionary in Python?
+Answer: A dictionary is a mutable, unordered collection of key-value pairs indexing values by unique keys.
+
+Category: Python
+Question: What is set in Python?
+Answer: A set is an unordered collection of unique elements supporting mathematical operations like union and intersection.
+
+Category: Python
+Question: What is list append method?
+Answer: The append method adds an element to the end of an existing list in-place.
+
+Category: Python
+Question: What is list extend method?
+Answer: The extend method appends all elements from an iterable to the end of the target list.
+
+Category: Python
+Question: What is deep copy vs shallow copy?
+Answer: A shallow copy copies object references, while a copy recursively copies the nested objects themselves.
+
+Category: Python
+Question: What is print function?
+Answer: The print function outputs text representations of objects to standard output streams.
+
+Category: Python
+Question: What is list slicing?
+Answer: List slicing extracts a subset of list elements using start, stop, and step indices.
+
+Category: Python
+Question: What is NumPy?
+Answer: NumPy is a Python library providing support for large multi-dimensional arrays and mathematical functions.
+
+Category: Python
+Question: What is Pandas?
+Answer: Pandas is a data manipulation library providing DataFrames to clean and analyze structured tabular data.
+
+Category: Python
+Question: What is Matplotlib?
+Answer: Matplotlib is a plotting library used to create static, animated, and interactive visualizations in Python.
+
+Category: Python
+Question: What is Scikit-learn?
+Answer: Scikit-learn is a library providing simple and efficient tools for predictive data analysis and machine learning.
+
+Category: Python
+Question: What is __init__ method?
+Answer: The __init__ method is a special constructor method called automatically when creating an instance of a class.
+
+Category: Python
+Question: What is self parameter?
+Answer: The self parameter represents the specific instance of the class, linking class variables to objects.
+
+Category: Python
+Question: What is class inheritance?
+Answer: Inheritance allows a new class to inherit attributes and methods from an existing parent class.
+
+Category: Python
+Question: What is Python module?
+Answer: A module is a file containing Python definitions and statements that can be imported into other scripts.
+
+Category: Python
+Question: What is Python package?
+Answer: A package is a directory containing Python modules and a special __init__.py file defining library scopes.
+
+Category: Python
+Question: What is exception handling?
+Answer: Exception handling uses try-except blocks to catch and handle runtime errors without crashing programs.
+
+Category: Python
+Question: What is list pop method?
+Answer: The pop method removes and returns the element at a specified index, defaulting to the last element.
+
+Category: Python
+Question: What is string strip method?
+Answer: The strip method removes leading and trailing whitespaces or specified characters from a string.
+
+Category: Python
+Question: What is open function?
+Answer: The open function opens a file specified by a path and returns a corresponding file stream object.
+
+Category: Python
+Question: What is type hinting?
+Answer: Type hinting specifies expected data types for variables and function parameters, improving code analysis.
+
+Category: Python
+Question: What is with statement?
+Answer: The with statement wraps execution blocks with context managers to automate resource cleanup like closing files.
+
+Category: Python
+Question: What is local vs global variable?
+Answer: Local variables are defined inside functions, while global variables are defined at the module level.
+
+Category: Python
+Question: What is standard library?
+Answer: The standard library is the collection of built-in modules distributed with Python, like math or os.
+
+Category: Python
+Question: What is list index method?
+Answer: The index method searches for a value in a list and returns its first occurrence position index.
+
+Category: Data Science
+Question: What is data science?
+Answer: Data science is an interdisciplinary field combining statistics, algorithms, and domain knowledge to extract insights from data.
+
+Category: Data Science
+Question: What is standard deviation?
+Answer: Standard deviation measures the amount of variation or dispersion of a set of values from their mean.
+
+Category: Data Science
+Question: What is variance?
+Answer: Variance measures the average squared deviation of data values from their arithmetic mean.
+
+Category: Data Science
+Question: What is correlation vs causation?
+Answer: Correlation measures how two variables change together, while causation proves that one variable's change direct triggers the other.
+
+Category: Data Science
+Question: What is hypothesis testing?
+Answer: Hypothesis testing evaluates statistical assertions using sample data to determine if a claimed effect is significant.
+
+Category: Data Science
+Question: What is a p-value?
+Answer: The p-value is the probability of obtaining test results at least as extreme as observations, assuming the null hypothesis is true.
+
+Category: Data Science
+Question: What is normal distribution?
+Answer: A normal distribution is a bell-shaped probability distribution symmetric around the mean.
+
+Category: Data Science
+Question: What is an outlier in data?
+Answer: An outlier is a data point that differs significantly from other observations in a dataset.
+
+Category: Data Science
+Question: What is missing value imputation?
+Answer: Missing value imputation replaces missing data fields with calculated values like the mean, median, or predictions.
+
+Category: Data Science
+Question: What is the ROC-AUC score?
+Answer: The ROC-AUC score measures classification model performance across threshold values, representing discrimination power.
+
+Category: Data Science
+Question: What is the mean?
+Answer: The mean is the average value calculated by dividing the sum of data values by their count.
+
+Category: Data Science
+Question: What is the median?
+Answer: The median is the middle value separating the higher half from the lower half of a sorted data list.
+
+Category: Data Science
+Question: What is the mode?
+Answer: The mode is the value that appears most frequently in a dataset.
+
+Category: Data Science
+Question: What is null hypothesis?
+Answer: The null hypothesis asserts that no statistical relationship or effect exists between variables.
+
+Category: Data Science
+Question: What is alternative hypothesis?
+Answer: The alternative hypothesis asserts that a statistically significant effect or relationship exists between variables.
+
+Category: Data Science
+Question: What is Type I error?
+Answer: A Type I error occurs when a true null hypothesis is incorrectly rejected, representing a false positive.
+
+Category: Data Science
+Question: What is Type II error?
+Answer: A Type II error occurs when a false null hypothesis is not rejected, representing a false negative.
+
+Category: Data Science
+Question: What is confidence interval?
+Answer: A confidence interval is a range of values expected to contain a population parameter with a specified probability.
+
+Category: Data Science
+Question: What is linear regression model?
+Answer: Linear regression fits a linear equation to observations to predict relationships between continuous variables.
+
+Category: Data Science
+Question: What is R-squared?
+Answer: R-squared measures the proportion of variance in the dependent variable explained by independent variables.
+
+Category: Data Science
+Question: What is multivariate analysis?
+Answer: Multivariate analysis observes and analyzes multiple statistical outcome variables simultaneously.
+
+Category: Data Science
+Question: What is qualitative data?
+Answer: Qualitative data represents non-numerical categorical properties or descriptions.
+
+Category: Data Science
+Question: What is quantitative data?
+Answer: Quantitative data represents numerical counts or measurements that can be ordered and compared.
+
+Category: Data Science
+Question: What is standard error?
+Answer: Standard error measures the standard deviation of a sample distribution of a statistical estimator.
+
+Category: Data Science
+Question: What is data cleaning?
+Answer: Data cleaning is the process of identifying and correcting corrupted, inaccurate, or incomplete records.
+
+Category: Data Science
+Question: What is exploratory data analysis?
+Answer: EDA summarizes data main characteristics using visual plotting methods before formal modeling.
+
+Category: Data Science
+Question: What is data visualization?
+Answer: Data visualization presents information graphically to communicate insights clearly and efficiently.
+
+Category: Data Science
+Question: What is box plot?
+Answer: A box plot visualizes data distribution based on minimum, first quartile, median, third quartile, and maximum.
+
+Category: Data Science
+Question: What is scatter plot?
+Answer: A scatter plot uses dots to represent values for two different numeric variables in coordinates.
+
+Category: Data Science
+Question: What is histogram?
+Answer: A histogram groups continuous data values into bins to show probability distribution frequency.
+
+Category: Data Science
+Question: What is feature extraction?
+Answer: Feature extraction creates new features by combining existing variables to reduce data complexity.
+
+Category: Data Science
+Question: What is oversampling?
+Answer: Oversampling duplicates minority class examples to balance class distributions in datasets.
+
+Category: Data Science
+Question: What is undersampling?
+Answer: Undersampling removes majority class examples to balance class distributions in datasets.
+
+Category: Data Science
+Question: What is SMOTE?
+Answer: Synthetic Minority Over-sampling Technique, or SMOTE, synthesizes new minority class examples along neighbor line segments.
+
+Category: Data Science
+Question: What is one-hot encoding?
+Answer: One-hot encoding converts categorical variables into binary vector arrays where only one index is active.
+
+Category: Data Science
+Question: What is binning in data prep?
+Answer: Binning groups continuous numeric values into discrete interval bins to treat them as categorical.
+
+Category: Data Science
+Question: What is covariance?
+Answer: Covariance measures the directional relationship between the linear movements of two variables.
+
+Category: Data Science
+Question: What is ANOVA?
+Answer: Analysis of Variance, or ANOVA, tests whether the means of multiple groups are statistically different.
+
+Category: Data Science
+Question: What is central limit theorem?
+Answer: The Central Limit Theorem states that sample means approach normal distributions as sample size increases, regardless of population shape.
+
+Category: Data Science
+Question: What is data science lifecycle?
+Answer: The lifecycle includes data collection, cleaning, exploration, modeling, validation, deployment, and monitoring.
+
+Category: Artificial Intelligence
+Question: What is semantic search?
+Answer: Semantic search understands user intent and contextual meaning to find relevant query results rather than simple keyword matches.
+
+Category: Artificial Intelligence
+Question: What is knowledge graph?
+Answer: A knowledge graph is a structured database representing entities and semantic relationships, used to enhance search engines.
+
+Category: Artificial Intelligence
+Question: What is symbolic reasoning?
+Answer: Symbolic reasoning manipulates explicit symbols and logical rules to deduce new facts.
+
+Category: Artificial Intelligence
+Question: What is a heuristic search?
+Answer: A search algorithm using heuristics to estimate step costs and prune branches.
+
+Category: Artificial Intelligence
+Question: What is narrow versus general AI?
+Answer: Narrow AI executes specific single tasks, while General AI possesses human-like adaptive intelligence across domains.
+
+Category: Artificial Intelligence
+Question: What is AI safety?
+Answer: AI safety focuses on engineering robust systems that act predictably and without unintended harmful behaviors.
+
+Category: Artificial Intelligence
+Question: What is explainable AI?
+Answer: Explainable AI, or XAI, designs machine learning models whose decisions can be easily understood and traced by humans.
+
+Category: Artificial Intelligence
+Question: What is reinforcement learning agent?
+Answer: An agent that learns to interact with environment states by maximizing rewards.
+
+Category: Artificial Intelligence
+Question: What is game theory in AI?
+Answer: Game theory models interactions between competing rational agents to select optimal strategies.
+
+Category: Artificial Intelligence
+Question: What is expert system knowledge base?
+Answer: A repository of specialized domain rules and facts used by inference engines to make decisions.
+
+Category: Machine Learning
+Question: What is feature selection?
+Answer: Feature selection selects the most relevant subset of variables to train models, reducing noise and complexity.
+
+Category: Machine Learning
+Question: What is one-hot encoding in ML?
+Answer: One-hot encoding converts categorical variables into binary vectors where only one index is active.
+
+Category: Machine Learning
+Question: What is mean absolute error?
+Answer: MAE measures the average absolute difference between predicted values and actual target values.
+
+Category: Machine Learning
+Question: What is mean squared error in ML?
+Answer: MSE measures the average squared difference between predictions and targets, penalizing larger errors.
+
+Category: Machine Learning
+Question: What is Lasso regression?
+Answer: Lasso regression uses L1 regularization to penalize parameter weights, driving some weights to zero.
+
+Category: Machine Learning
+Question: What is Ridge regression in ML?
+Answer: Ridge regression uses L2 regularization to penalize squared weights, keeping parameter magnitudes small.
+
+Category: Machine Learning
+Question: What is Elastic Net?
+Answer: Elastic Net combines both L1 (Lasso) and L2 (Ridge) regularization penalties.
+
+Category: Machine Learning
+Question: What is gradient boosting?
+Answer: Gradient boosting builds trees sequentially to minimize loss function gradients.
+
+Category: Machine Learning
+Question: What is XGBoost?
+Answer: XGBoost is an optimized distributed gradient boosting library designed for high efficiency.
+
+Category: Machine Learning
+Question: What is AdaBoost?
+Answer: AdaBoost fits a sequence of weak learners, updating sample weights to focus on misclassified points.
+
+Category: Deep Learning
+Question: What is PyTorch DataLoader?
+Answer: A PyTorch utility that automates batching, shuffling, and multi-process loading of dataset samples.
+
+Category: Deep Learning
+Question: What is PyTorch Dataset?
+Answer: An abstract class representing a dataset, requiring __len__ and __getitem__ methods.
+
+Category: Deep Learning
+Question: What is RMSprop?
+Answer: An optimizer that normalizes gradients using moving averages of squared gradients.
+
+Category: Deep Learning
+Question: What is SGD with momentum?
+Answer: SGD with momentum adds a fraction of past update steps to the current step to accelerate gradient descent.
+
+Category: Deep Learning
+Question: What is learning rate scheduling?
+Answer: It adjusts the learning rate during training based on current epoch counts or val loss.
+
+Category: Deep Learning
+Question: What is cosine decay in training?
+Answer: A learning rate scheduler that reduces the learning rate following a cosine curve.
+
+Category: Deep Learning
+Question: What is early stopping patience?
+Answer: Patience is the number of epochs to wait without validation improvement before stopping training.
+
+Category: Deep Learning
+Question: What is weight initialization in DL?
+Answer: It defines starting weights for neural network layers to avoid gradient stability issues.
+
+Category: Deep Learning
+Question: What is PyTorch tensor class?
+Answer: A multi-dimensional array class supporting GPU computing and automatic gradient tracking.
+
+Category: Deep Learning
+Question: What is gradient norm?
+Answer: The L2 norm of the gradient vector, used to monitor optimization stability.
+
+Category: Neural Networks
+Question: What is an artificial neuron?
+Answer: The basic node of neural networks computing weighted inputs, adding bias, and applying activations.
+
+Category: Neural Networks
+Question: What is activation non-linearity?
+Answer: Functions like ReLU or Sigmoid that let networks learn non-linear decision boundaries.
+
+Category: Neural Networks
+Question: What is fully connected layer in NN?
+Answer: A neural layer where every input unit connects to every output unit.
+
+Category: Neural Networks
+Question: What is feedforward propagation in NN?
+Answer: The forward calculation of outputs from inputs across successive network layers.
+
+Category: Neural Networks
+Question: What is convolutional kernel?
+Answer: A small grid of weights sliding over inputs to extract spatial features in CNNs.
+
+Category: Neural Networks
+Question: What is max pooling in NN?
+Answer: A downsampling method extracting the maximum value within filter windows.
+
+Category: Neural Networks
+Question: What is average pooling in NN?
+Answer: A downsampling method calculating the mean value within filter windows.
+
+Category: Neural Networks
+Question: What is skip connection in NN?
+Answer: A pathway bypassing layers to add original inputs directly to layer outputs.
+
+Category: Neural Networks
+Question: What is LSTM forget gate in NN?
+Answer: A gate controlling what fraction of cell state memory should be discarded.
+
+Category: Neural Networks
+Question: What is LSTM input gate in NN?
+Answer: A gate controlling what new information is added to cell state memory.
+
+Category: NLP
+Question: What is stemming in NLP?
+Answer: A crude heuristic cutting word endings to reduce them to base stems.
+
+Category: NLP
+Question: What is lemmatization in NLP?
+Answer: Using vocabulary dictionaries to resolve words to their base dictionary form.
+
+Category: NLP
+Question: What is stop word?
+Answer: Common words like 'is' or 'the' filtered out during preprocessing.
+
+Category: NLP
+Question: What is bag of words in NLP?
+Answer: A representation counting token frequencies while ignoring grammar and word order.
+
+Category: NLP
+Question: What is TF-IDF in NLP?
+Answer: A metric weighting terms by document frequency against corpus-wide frequency.
+
+Category: NLP
+Question: What is Word2Vec in NLP?
+Answer: An embedding model learning word vectors using context window prediction.
+
+Category: NLP
+Question: What is fastText in NLP?
+Answer: An embedding model representing words as bags of character n-grams.
+
+Category: NLP
+Question: What is subword tokenization in NLP?
+Answer: Splitting rare words into frequent subword units to handle unknown tokens.
+
+Category: NLP
+Question: How does BPE tokenizer build its vocabulary?
+Answer: A tokenizer that builds vocabulary by iteratively merging frequent character pairs.
+
+Category: NLP
+Question: What is perplexity in NLP?
+Answer: A metric evaluating language models, calculated as exponent of cross-entropy loss.
+
+Category: Computer Vision
+Question: What is semantic segmentation in CV?
+Answer: Classifying every pixel in an image into category classes.
+
+Category: Computer Vision
+Question: What is instance segmentation in CV?
+Answer: Locating and segmenting every individual object instance in an image.
+
+Category: Computer Vision
+Question: What is edge detection in CV?
+Answer: Finding sharp boundaries in brightness to locate object outlines.
+
+Category: Computer Vision
+Question: What is image augmentation in CV?
+Answer: Applying random flips, rotations, or crops to train vision models robustly.
+
+Category: Computer Vision
+Question: What is YOLO detector in CV?
+Answer: You Only Look Once, a real-time object detection model predicting boxes in one forward pass.
+
+Category: Computer Vision
+Question: What is non-maximum suppression in CV?
+Answer: Eliminating overlapping duplicate bounding boxes, keeping highest-scoring ones.
+
+Category: Computer Vision
+Question: What is mAP metric in CV?
+Answer: Mean average precision, the standard evaluation metric for object detectors.
+
+Category: Computer Vision
+Question: What is image kernel in CV?
+Answer: A sliding filter matrix applied to pixels to blur or sharpen images.
+
+Category: Computer Vision
+Question: What is histogram equalization in CV?
+Answer: Adjusting image contrast by spreading out pixel intensity frequencies.
+
+Category: Computer Vision
+Question: What is morphological dilation in CV?
+Answer: Adding pixels to binary shape boundaries to expand objects.
+
+Category: Transformers
+Question: What is Multi-Head Attention in Transformers?
+Answer: Running self-attention in parallel heads to focus on different sequence features.
+
+Category: Transformers
+Question: What is causal mask in Transformers?
+Answer: A mask preventing tokens from attending to future indices in decoders.
+
+Category: Transformers
+Question: What is rotary positional embedding in Transformers?
+Answer: RoPE rotates Query/Key vectors to represent relative token distances.
+
+Category: Transformers
+Question: What is KV cache in Transformers?
+Answer: Storing previously computed Key and Value vectors to speed up generation.
+
+Category: Transformers
+Question: What is pre-LN in Transformers?
+Answer: Normalizing inputs before applying self-attention to stabilize gradients.
+
+Category: Transformers
+Question: What is post-LN in Transformers?
+Answer: Normalizing outputs after residual additions.
+
+Category: Transformers
+Question: What is SwiGLU in Transformers?
+Answer: A gated activation function used in modern Transformer feed-forward sublayers.
+
+Category: Transformers
+Question: What is flash attention in Transformers?
+Answer: An IO-efficient attention algorithm avoiding full attention matrix storage.
+
+Category: Transformers
+Question: What is vision Transformer in Transformers?
+Answer: ViT splits images into patch sequences, processing them like text tokens.
+
+Category: Transformers
+Question: What is attention scaling in Transformers?
+Answer: Dividing query-key dot products by square root of head dimension.
+
+Category: LLMs
+Question: What is prompt engineering in LLMs?
+Answer: Designing input text prompts to guide LLM responses.
+
+Category: LLMs
+Question: What is zero-shot prediction in LLMs?
+Answer: Testing an LLM on a task without giving examples in the prompt.
+
+Category: LLMs
+Question: What is few-shot prompting in LLMs?
+Answer: Adding a few example inputs and outputs in the prompt context.
+
+Category: LLMs
+Question: What is context window in LLMs?
+Answer: The maximum token sequence size an LLM can process.
+
+Category: LLMs
+Question: What does hallucination mean for LLMs?
+Answer: When an LLM generates fluent but factually incorrect text.
+
+Category: LLMs
+Question: What is instruction tuning in LLMs?
+Answer: Fine-tuning LLMs on instruction-answer pairs to improve compliance.
+
+Category: LLMs
+Question: What is LoRA in LLMs?
+Answer: Low-Rank Adaptation, updating rank-decomposition matrices instead of full weights.
+
+Category: LLMs
+Question: What is quantization in LLMs?
+Answer: Reducing precision of model weights to save memory.
+
+Category: LLMs
+Question: What is RAG in LLMs?
+Answer: Adding database search results to prompts to ground outputs.
+
+Category: LLMs
+Question: What is temperature in LLMs?
+Answer: Scaling output logits to increase or decrease generation diversity.

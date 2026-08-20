@@ -147,6 +147,19 @@ python -m pytest tests/test_multi_head_attention.py tests/test_feed_forward.py t
 
 MiniGPT is a learning project, not a modern production LLM. It has a very small dataset and model, a character-level tokenizer, CPU-oriented short training, limited context, and poor language quality. It has no instruction tuning, RLHF, large-scale pretraining, factual retrieval, or external knowledge source.
 
+## Phase 6: Training Improvements
+
+In Phase 6, we improved the model's generation quality without changing its underlying Transformer architecture. The original model generated poor, repetitive answers because its dataset was extremely small (201 examples) and the learning strategy was naive. 
+
+To fix this, we implemented several improvements:
+- **Expanded Dataset**: We increased the dataset to 510 high-quality, structured Q&A examples. More data gives the model a wider linguistic distribution to learn from, reducing overfitting and repetitive loops.
+- **AdamW & Cosine Learning Rate Decay**: We adopted the AdamW optimizer with a cosine learning rate decay scheduler. This allows the model to take large steps early on to escape bad local minima, then fine-tune its weights as the learning rate smoothly decays towards zero.
+- **Linear Warmup**: We added a warmup phase that linearly increases the learning rate at the start of training. This prevents early massive gradients from destabilizing the randomly initialized weights.
+- **Gradient Clipping**: We clamp gradients to a maximum norm to prevent exploding gradients.
+- **Evaluation Isolation**: We keep the baseline checkpoint to explicitly compare metrics and generation outputs. We measure objective improvements via validation perplexity and generation metrics like unique token ratio and repeated n-grams.
+
+Despite these improvements, there are intrinsic limitations: training a 1M parameter model from scratch on CPU with limited context will not rival modern LLMs.
+
 ## Future improvements
 
 Reasonable next steps are a larger corpus, a subword tokenizer, a larger model, longer GPU training, learning-rate scheduling, checkpoint resume, stronger evaluation, a longer context window, instruction tuning, and additional generation strategies.
