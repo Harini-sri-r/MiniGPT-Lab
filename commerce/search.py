@@ -20,10 +20,10 @@ def search_products(
     filtered: list[tuple[int, Product]] = []
     for product in products:
         searchable = " ".join((product.product_name, product.brand, product.category, *product.specifications.values())).lower()
-        requested_category = category.lower()
+        requested_category = category.lower() if category else None
         if requested_category and not requested_category.endswith("s"):
             requested_category += "s"
-        if category and product.category.lower() != requested_category:
+        if requested_category and product.category.lower() != requested_category:
             continue
         if maximum_price is not None and product.price > maximum_price:
             continue

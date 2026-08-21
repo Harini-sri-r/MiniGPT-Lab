@@ -200,3 +200,39 @@ python -m experiments.commerce_demo
 ```
 
 The eventual architecture can support real product sources only through compliant APIs or otherwise permitted data sources.
+
+## Commerce Assistant (Phase 8)
+
+Phase 8 evolves the Phase 7 comparison foundation into an offline, explainable shopping-assistant architecture. It remains completely separate from MiniGPT v1/v2 training, BPE, Transformer code, and checkpoints.
+
+```text
+Shopping query → Rule-based query understanding → Marketplace provider adapters
+              → Normalized listings → Likely-product matching → Transparent scoring
+              → Best match, alternatives, comparison table, and explanation
+```
+
+The provider interface (`MarketplaceProvider`) supplies `search_products`, `get_product`, and `normalize_product`. The Amazon, Flipkart, and Meesho adapters all use the same reusable mock-provider implementation and the existing synthetic catalog—there is no web scraping, browser automation, or live marketplace request.
+
+The richer parser extracts category, INR budget (including `70k`), brand, minimum rating, use case, and simple requested features. Likely equivalence is a deterministic confidence heuristic based on normalized brand/title/category and feature similarity; it is not claimed to be perfect matching.
+
+Phase 8 recommendation scoring is configurable and reports every component:
+
+```text
+30% price + 25% rating + 15% reviews + 20% feature match + 10% requirement match
+```
+
+Use the interactive terminal assistant:
+
+```bash
+python -m app.commerce_cli
+```
+
+For the ten-query offline evaluation run:
+
+```bash
+python -m experiments.commerce_phase8_evaluation
+```
+
+**Current:** offline synthetic product data only. Prices and availability are not live, verified marketplace information.
+
+**Future:** a legitimate marketplace API or permitted data provider can implement the same provider interface. Live prices must not be claimed unless such a source is actually connected.

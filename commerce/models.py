@@ -31,3 +31,22 @@ class UserRequirements:
     use_case: str | None = None
     brand: str | None = None
     platform: str | None = None
+    minimum_rating: float | None = None
+    required_features: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class NormalizedProduct:
+    """Provider-neutral representation of a synthetic marketplace listing."""
+
+    product_id: str
+    platform: str
+    title: str
+    brand: str
+    category: str
+    price: int
+    rating: float
+    review_count: int
+    features: Mapping[str, str]
+    product_url: str
+    availability: str
