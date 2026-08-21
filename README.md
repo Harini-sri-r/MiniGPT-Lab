@@ -163,3 +163,40 @@ Despite these improvements, there are intrinsic limitations: training a 1M param
 ## Future improvements
 
 Reasonable next steps are a larger corpus, a subword tokenizer, a larger model, longer GPU training, learning-rate scheduling, checkpoint resume, stronger evaluation, a longer context window, instruction tuning, and additional generation strategies.
+
+## MiniGPT Commerce Agent (Phase 7)
+
+Phase 7 adds an isolated, deterministic product-comparison foundation. It does not alter MiniGPT v2's BPE tokenizer, Transformer, training pipeline, or checkpoints.
+
+```text
+User Query
+    ↓
+Requirement Parser
+    ↓
+Product Search
+    ↓
+Product Normalization
+    ↓
+Cross-Platform Comparison
+    ↓
+Recommendation Engine
+    ↓
+Recommendation
+```
+
+**CURRENT PHASE USES MOCK DATA.** The catalog has 102 synthetic listings across Amazon, Flipkart, and Meesho labels. Amazon, Flipkart, and Meesho are **not** queried live; prices, ratings, URLs, and availability are fabricated solely for safe, repeatable testing.
+
+The foundation supports category, maximum-price, minimum-rating, brand, and platform filtering; deterministic name grouping; and a configurable recommendation formula:
+
+```text
+score = 0.35 × price_score + 0.30 × rating_score
+      + 0.15 × review_score + 0.20 × requirement_match
+```
+
+The rule-based requirement parser can identify common categories, INR budgets, simple product features, and use cases such as programming or gaming. Run the demonstration with:
+
+```bash
+python -m experiments.commerce_demo
+```
+
+The eventual architecture can support real product sources only through compliant APIs or otherwise permitted data sources.
