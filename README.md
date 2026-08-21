@@ -236,3 +236,31 @@ python -m experiments.commerce_phase8_evaluation
 **Current:** offline synthetic product data only. Prices and availability are not live, verified marketplace information.
 
 **Future:** a legitimate marketplace API or permitted data provider can implement the same provider interface. Live prices must not be claimed unless such a source is actually connected.
+
+## Commerce Decision Agent (Phase 9)
+
+Phase 9 adds a modular, explicit multi-step decision agent over the same offline catalog:
+
+```text
+Query → plan → validate → provider search → hard-constraint filter
+      → equivalent-product matching → comparison → transparent scoring
+      → recommendation, explanation, and alternatives
+```
+
+The agent stores an inspectable `ShoppingState` including the query, parsed requirements, plan, raw and filtered listings, matched groups, comparisons, recommendations, selected product, alternatives, and structured reasoning-step results. Each execution reports `success`, `no_results`, or `invalid_request` instead of crashing.
+
+Category, budget, explicitly named brand, minimum rating, and explicit technical features such as `16GB RAM` are hard constraints. Rating, reviews, price preference, use case, and descriptive preferences such as “good camera” are scored transparently as soft preferences. If no candidate meets the hard constraints, the agent reports that explicitly and names the closest constraint relaxation; it never silently recommends an invalid listing.
+
+Run the conversational agent (including an optional trace):
+
+```bash
+python -m app.commerce_agent_cli --trace
+```
+
+It supports follow-ups such as “What about HP?”, “Increase budget to 70000”, and “Which one is cheapest?” by updating explicit state and recalculating. The 15-scenario offline evaluation is available with:
+
+```bash
+python -m experiments.commerce_phase9_evaluation
+```
+
+**Current:** offline synthetic marketplace data. **Not implemented:** live APIs, scraping, browser automation, purchasing, payments, account access, or external LLM APIs.
