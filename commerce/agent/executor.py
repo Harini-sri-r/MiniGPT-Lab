@@ -84,7 +84,8 @@ def _group_equivalents(products: list[NormalizedProduct]) -> dict[str, list[Norm
 
 def _comparison(group: list[NormalizedProduct]) -> dict:
     lowest = min(group, key=lambda product: product.price)
-    return {"title": group[0].title, "listings": group, "cheapest": lowest, "price_difference": max(item.price for item in group) - lowest.price}
+    highest_rated = max(group, key=lambda product: product.rating)
+    return {"title": group[0].title, "listings": group, "cheapest": lowest, "highest_rated": highest_rated, "price_difference": max(item.price for item in group) - lowest.price, "rating_difference": round(highest_rated.rating - min(item.rating for item in group), 1)}
 
 
 def _recommendation(product: NormalizedProduct, state: ShoppingState) -> dict:
@@ -97,8 +98,14 @@ def _explain(recommendation: dict, state: ShoppingState) -> list[str]:
     if req.budget is not None: lines.append(f"Price Rs. {product.price:,} is within the Rs. {req.budget:,} budget.")
     if req.use_case: lines.append(f"It is evaluated for your {req.use_case} use case.")
     lines.append(f"Rating is {product.rating:.1f}/5 from {product.review_count:,} synthetic reviews.")
-    matched = [item for item in req.required_features if item.lower() in " ".join((*product.features.keys(), *product.features.values())).lower()]
+    matched = [item for item in req.required_features if _feature_matches(item, product)]
     if matched: lines.append("Matches required features: " + ", ".join(matched) + ".")
+    cheaper = min(state.recommendations, key=lambda item: item["product"].price)
+    if cheaper["product"] != product:
+        lines.append(f"Trade-off: {cheaper['product'].title} on {cheaper['product'].platform} is Rs. {product.price - cheaper['product'].price:,} cheaper but scores lower overall.")
+    lower_ranked = next((item for item in state.recommendations[1:] if item["product"] != product), None)
+    if lower_ranked:
+        lines.append(f"Alternative ranks lower with a {lower_ranked['scores']['overall_score']}/100 score versus {recommendation['scores']['overall_score']}/100.")
     lines.append(f"Transparent score: {recommendation['scores']['overall_score']}/100 among valid candidates.")
     return lines
 

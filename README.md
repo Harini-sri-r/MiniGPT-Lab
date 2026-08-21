@@ -264,3 +264,19 @@ python -m experiments.commerce_phase9_evaluation
 ```
 
 **Current:** offline synthetic marketplace data. **Not implemented:** live APIs, scraping, browser automation, purchasing, payments, account access, or external LLM APIs.
+
+## Explainable Commerce Decision Assistant (Phase 10)
+
+Phase 10 polishes the offline agent into an evaluation-driven decision assistant without changing its mock-data boundary. Rich comparisons expose each listing’s product, brand, category, platform, price, rating, review count, relevant structured features, requirement match, price/rating difference, and deterministic value score.
+
+Every recommendation now exposes price/rating/review/feature/requirement score components plus the configured weights. Its factual explanation covers hard constraints, use case, price, rating, reviews, features, a trade-off, and a score-based reason alternatives rank lower. The structured decision trace reports concise actions and factual metadata only; it does not expose hidden reasoning.
+
+The terminal agent supports `Why this one?`, `Show alternatives`, `Only HP`, `Make the budget 70000`, `What if I need 16GB RAM?`, and `Which is cheapest?`. No-result responses retain hard constraints and provide only safe relaxation suggestions.
+
+The provider contract now includes offline `search`, `get_product`, `availability`, and `price` operations, so compliant future sources can adopt the same interface. Run the 20-scenario Phase 10 evaluation with:
+
+```bash
+python -m experiments.commerce_phase10_evaluation
+```
+
+**Current Amazon/Flipkart/Meesho data is synthetic/offline mock data. No live marketplace prices or availability are retrieved.** Future providers must use legitimate permitted APIs/data sources; scraping, browser automation, purchasing, payments, and external LLM APIs are not implemented.

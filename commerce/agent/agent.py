@@ -32,9 +32,12 @@ class CommerceDecisionAgent:
             if self.state.alternatives: self.state.selected_product = self.state.alternatives["cheapest_valid"]
             self.state.record("follow_up_cheapest", "success", self.state.selected_product["product"].product_id if self.state.selected_product else None)
             return self.state
+        if update in {"why this one?", "why this one", "show alternatives", "alternatives"}:
+            self.state.record("follow_up_information", "success", update)
+            return self.state
         parsed = parse_requirements(query)
         old = self.state.requirements
-        amount = re.search(r"(?:increase|change|update)\s+(?:the\s+)?budget\s+(?:to|of)?\s*(?:rs\.?\s*)?([\d,]+)\s*(k)?", update)
+        amount = re.search(r"(?:increase|change|update|make)\s+(?:the\s+)?budget\s+(?:to|of)?\s*(?:rs\.?\s*)?([\d,]+)\s*(k)?", update)
         follow_up_budget = int(amount.group(1).replace(",", "")) * (1000 if amount and amount.group(2) else 1) if amount else None
         budget = follow_up_budget if follow_up_budget is not None else (parsed.budget if parsed.budget is not None else old.budget)
         brand = parsed.brand if parsed.brand is not None else old.brand

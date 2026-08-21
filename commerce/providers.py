@@ -19,6 +19,12 @@ class MarketplaceProvider(ABC):
     @abstractmethod
     def get_product(self, product_id: str) -> NormalizedProduct | None: ...
 
+    @abstractmethod
+    def availability(self, product_id: str) -> str | None: ...
+
+    @abstractmethod
+    def price(self, product_id: str) -> int | None: ...
+
     @staticmethod
     def normalize_product(product: Product) -> NormalizedProduct:
         return NormalizedProduct(product.product_id, product.platform, product.product_name, product.brand, product.category, product.price, product.rating, product.review_count, product.specifications, product.product_url, product.availability)
@@ -38,6 +44,18 @@ class MockMarketplaceProvider(MarketplaceProvider):
     def get_product(self, product_id: str) -> NormalizedProduct | None:
         product = next((item for item in self._products if item.product_id == product_id), None)
         return self.normalize_product(product) if product else None
+
+    def availability(self, product_id: str) -> str | None:
+        product = self.get_product(product_id)
+        return product.availability if product else None
+
+    def price(self, product_id: str) -> int | None:
+        product = self.get_product(product_id)
+        return product.price if product else None
+
+    def search(self, requirements: UserRequirements) -> list[NormalizedProduct]:
+        """Short alias retained for future provider adapters."""
+        return self.search_products(requirements)
 
 
 class AmazonMockProvider(MockMarketplaceProvider):
