@@ -268,3 +268,80 @@ python -m experiments.commerce_phase10_evaluation
 ```
 
 **Current Amazon/Flipkart/Meesho data is synthetic/offline mock data. No live marketplace prices or availability are retrieved.** Future providers must use legitimate permitted APIs/data sources; scraping, browser automation, purchasing, payments, and external LLM APIs are not implemented.
+
+# MiniGPT AI Commerce Agent
+
+## Overview
+MiniGPT started as a tiny character‑level Transformer language model and has grown into an AI‑assisted commerce decision system. The project now combines a custom language model (MiniGPT v2) with a deterministic, rule‑based commerce engine that can compare products across multiple marketplaces. **The language model is educational and not production‑ready**, and the commerce engine uses synthetic offline data.
+
+## Project Evolution
+
+MiniGPT v1
+↓
+MiniGPT v2
+├── Phase 1 — Q&A Dataset
+├── Phase 2 — BPE Tokenizer
+├── Phase 3 — BPE MiniGPT Architecture
+├── Phase 4 — Training Pipeline
+├── Phase 5 — Text Generation
+└── Phase 6 — Data & Training Improvement
+↓
+Commerce Agent
+├── Phase 7 — Product Comparison Foundation
+├── Phase 8 — Query Understanding & Recommendation
+├── Phase 9 — Agentic Shopping Workflow
+├── Phase 10 — Comparison & Explanation
+└── Phase 11 — Marketplace Integration Foundation
+
+## Architecture
+
+**MiniGPT V2 Pipeline**
+```
+Dataset → BPE Tokenizer → Transformer → Training → Generation → Evaluation
+```
+
+**Commerce Pipeline**
+```
+User Query → Query Understanding → Agent / Decision Engine → Search Orchestrator → Marketplace Providers → Normalized Products → Filtering/Matching → Comparison → Recommendation → Explanation
+```
+
+The MiniGPT language model and the commerce engine are separate; the commerce decisions are driven by deterministic rules and provider metadata, not by the language model.
+
+## Key Features
+- Custom Transformer language model (character‑level → BPE tokenizer)
+- Supervised Q&A training and evaluation
+- Dataset‑quality analysis tools
+- Cross‑marketplace product comparison using a provider abstraction layer
+- Natural‑language requirement parsing with hard/soft constraints
+- Rule‑based recommendation scoring and explainable outputs
+- Agentic multi‑step shopping workflow
+- Provider‑level error handling and mock fallback architecture
+- Data‑source metadata (mock vs future live providers)
+
+## Commerce Data Disclaimer
+The current Amazon, Flipkart, and Meesho catalogs are **synthetic offline mock data**. The system does **not** scrape live marketplaces, access user accounts, make purchases, process payments, or use unauthorized APIs. Phase 11 only adds an architecture for future authorized integrations.
+
+## Technology Stack
+- Python 3.11+
+- PyTorch for the language model
+- Standard library and custom code for the commerce engine
+- No external LLM APIs or web‑scraping libraries
+
+## Testing
+The test suite includes 220 + passing tests covering MiniGPT v2 and all commerce phases up to Phase 11. No new test failures were introduced after adding Phase 11.
+
+## Limitations
+- MiniGPT v2 is a small educational model with limited capacity and data.
+- Commerce engine relies on offline synthetic product data.
+- Recommendations are deterministic and based on rule‑based scoring.
+- No live marketplace access or real‑time pricing.
+
+## Future Work (high‑level)
+- Integration with authorized marketplace APIs
+- Real‑time pricing and availability
+- richer product matching heuristics
+- stronger recommendation models (e.g., learning‑to‑rank)
+- production‑scale language model
+- optional web or GUI interface
+
+![MiniGPT AI Commerce Agent Architecture](docs/assets/architecture.svg)
