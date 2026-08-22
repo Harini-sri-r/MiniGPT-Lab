@@ -50,3 +50,7 @@ class NormalizedProduct:
     features: Mapping[str, str]
     product_url: str
     availability: str
+    currency: str = "INR"
+    image_url: str = ""
+    data_source: str = "mock"
+    retrieved_at: str = ""

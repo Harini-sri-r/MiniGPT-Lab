@@ -36,20 +36,46 @@ def hard_constraint_failures(product: NormalizedProduct, state: ShoppingState) -
 
 
 def execute_plan(state: ShoppingState, providers: list[MarketplaceProvider]) -> ShoppingState:
-    """Execute a stated plan, recording one structured outcome for every step."""
+    """Execute a stated plan, recording one structured outcome for every step.
+
+    For Phase 11 we use the orchestrator to aggregate results across providers and
+    capture data‑source metadata. The ``providers`` argument is retained for backward
+    compatibility but is ignored; the orchestrator determines providers based on the
+    environment configuration.
+    """
     status, message = validate_requirements(state)
     state.record("understand_requirements", "success", state.requirements)
     state.record("validate_requirements", status, message)
     if status != "success":
         state.status = status
         return state
-    all_results: list[NormalizedProduct] = []
-    broad_requirements = replace(state.requirements, budget=None, brand=None, minimum_rating=None)
-    for provider in providers:
-        results = provider.search_products(broad_requirements)
-        all_results.extend(results)
-        state.record(f"search_{provider.platform.lower()}", "success" if results else "no_results", {"count": len(results)})
+
+    # Phase 11: Use orchestrator to perform the search.
+    from ..orchestrator import orchestrate_search
+    from ..providers import configured_providers
+
+    # Obtain providers according to configuration (mock by default).
+    providers = configured_providers()
+    # Orchestrate the search.
+    search_result = orchestrate_search(state.requirements, config=None)
+
+    # Record per‑provider outcomes.
+    for prov, info in search_result.provider_results.items():
+        state.record(
+            f"search_{prov.lower()}",
+            "success" if info.success else "failure",
+            {"count": info.result_count, "error": info.error},
+        )
+
+    # Record overall data source summary.
+    state.record("data_source_summary", "info", {
+        "summary": search_result.data_source_summary,
+        "notice": search_result.data_notice,
+    })
+
+    all_results: list[NormalizedProduct] = search_result.products
     state.search_results = all_results
+    # Continue with existing filtering, matching, and recommendation logic.
     valid = [product for product in all_results if not hard_constraint_failures(product, state)]
     state.filtered_results = valid
     state.record("filter_hard_constraints", "success" if valid else "no_results", {"before": len(all_results), "after": len(valid)})
