@@ -1,0 +1,803 @@
+Category: Artificial Intelligence
+Question: What is artificial intelligence?
+Answer: Artificial intelligence is a field of computer science focused on building systems that perform tasks associated with human intelligence.
+
+Category: Artificial Intelligence
+Question: What are common applications of artificial intelligence?
+Answer: Common applications of artificial intelligence include recommendation systems, medical image analysis, speech recognition, and fraud detection.
+
+Category: Artificial Intelligence
+Question: What is an intelligent agent?
+Answer: An intelligent agent is a system that observes an environment and chooses actions to achieve goals.
+
+Category: Artificial Intelligence
+Question: What is a search algorithm in AI?
+Answer: A search algorithm explores possible actions or states to find a solution to a problem.
+
+Category: Artificial Intelligence
+Question: What is knowledge representation?
+Answer: Knowledge representation is the way an AI system stores facts, relationships, and rules so it can use them for reasoning.
+
+Category: Artificial Intelligence
+Question: What is reasoning in artificial intelligence?
+Answer: Reasoning is the process of using information and rules to draw conclusions or choose actions.
+
+Category: Artificial Intelligence
+Question: What is an expert system?
+Answer: An expert system is a program that uses rules and knowledge from a specialized domain to make decisions.
+
+Category: Artificial Intelligence
+Question: What is a rule-based AI system?
+Answer: A rule-based AI system makes decisions by applying explicit if-then rules written by people.
+
+Category: Artificial Intelligence
+Question: What is symbolic AI?
+Answer: Symbolic AI represents knowledge with symbols and logical rules rather than learning patterns only from data.
+
+Category: Artificial Intelligence
+Question: What is narrow AI?
+Answer: Narrow AI is an AI system designed for a limited task, such as recognizing images or translating text.
+
+Category: Artificial Intelligence
+Question: What is general AI?
+Answer: General AI is a hypothetical system that could learn and perform many intellectual tasks across different domains.
+
+Category: Artificial Intelligence
+Question: What is AI ethics?
+Answer: AI ethics studies how to design and use AI systems fairly, safely, transparently, and responsibly.
+
+Category: Artificial Intelligence
+Question: What is algorithmic bias?
+Answer: Algorithmic bias is an unfair pattern in an algorithm's results that can arise from data, design choices, or deployment context.
+
+Category: Artificial Intelligence
+Question: Why does AI need data?
+Answer: Many AI systems need data because examples help them learn patterns that guide later predictions or decisions.
+
+Category: Artificial Intelligence
+Question: What is an AI limitation?
+Answer: An AI limitation is a task or condition where a system may fail because of limited data, weak assumptions, or changing environments.
+
+Category: Artificial Intelligence
+Question: What is computer vision?
+Answer: Computer vision is the area of AI that helps computers interpret images and video.
+
+Category: Artificial Intelligence
+Question: What is speech recognition?
+Answer: Speech recognition converts spoken audio into text or commands that a computer can process.
+
+Category: Artificial Intelligence
+Question: What is decision making in AI?
+Answer: Decision making in AI is the selection of an action based on goals, observations, and estimated outcomes.
+
+Category: Artificial Intelligence
+Question: What is a state space?
+Answer: A state space is the set of possible situations that can occur while solving a problem.
+
+Category: Artificial Intelligence
+Question: What is an AI model?
+Answer: An AI model is a mathematical or rule-based system that transforms inputs into predictions, decisions, or generated outputs.
+
+Category: Machine Learning
+Question: What is machine learning?
+Answer: Machine learning is a branch of artificial intelligence in which models learn patterns from data to make predictions or decisions.
+
+Category: Machine Learning
+Question: What is supervised learning?
+Answer: Supervised learning trains a model using examples that include both inputs and correct target labels.
+
+Category: Machine Learning
+Question: What is unsupervised learning?
+Answer: Unsupervised learning finds structure in data that does not have target labels.
+
+Category: Machine Learning
+Question: What is reinforcement learning?
+Answer: Reinforcement learning teaches an agent through rewards and penalties that follow its actions.
+
+Category: Machine Learning
+Question: What is classification?
+Answer: Classification is a machine learning task that assigns an input to one of several categories.
+
+Category: Machine Learning
+Question: What is regression?
+Answer: Regression is a machine learning task that predicts a continuous numerical value.
+
+Category: Machine Learning
+Question: What is clustering?
+Answer: Clustering groups similar data points together without using predefined labels.
+
+Category: Machine Learning
+Question: What is a feature?
+Answer: A feature is an input variable or measurable property that a model uses to make a prediction.
+
+Category: Machine Learning
+Question: What is a label?
+Answer: A label is the correct target value associated with a training example.
+
+Category: Machine Learning
+Question: What is training data?
+Answer: Training data is the set of examples used to fit a model's parameters.
+
+Category: Machine Learning
+Question: What is validation data?
+Answer: Validation data is held-out data used to compare model choices during development.
+
+Category: Machine Learning
+Question: What is test data?
+Answer: Test data is a final held-out set used to estimate how well a completed model generalizes.
+
+Category: Machine Learning
+Question: What is overfitting?
+Answer: Overfitting happens when a model learns training details too closely and performs poorly on new data.
+
+Category: Machine Learning
+Question: What is underfitting?
+Answer: Underfitting happens when a model is too simple or insufficiently trained to capture useful patterns.
+
+Category: Machine Learning
+Question: What is model bias?
+Answer: Model bias is error caused by assumptions that are too simple to represent the true relationship in data.
+
+Category: Machine Learning
+Question: What is model variance?
+Answer: Model variance is sensitivity to the particular training examples used to fit a model.
+
+Category: Machine Learning
+Question: What is accuracy?
+Answer: Accuracy is the fraction of predictions that are correct among all predictions.
+
+Category: Machine Learning
+Question: What is precision?
+Answer: Precision is the fraction of predicted positive cases that are actually positive.
+
+Category: Machine Learning
+Question: What is recall?
+Answer: Recall is the fraction of actual positive cases that a model successfully identifies.
+
+Category: Machine Learning
+Question: What is the F1 score?
+Answer: The F1 score combines precision and recall into one measure using their harmonic mean.
+
+Category: Machine Learning
+Question: What is cross-validation?
+Answer: Cross-validation evaluates a model by repeating training and validation across different splits of the data.
+
+Category: Machine Learning
+Question: What is a baseline model?
+Answer: A baseline model is a simple reference solution used to judge whether a more complex model improves results.
+
+Category: Machine Learning
+Question: What is data leakage?
+Answer: Data leakage occurs when information from validation or test data improperly influences model training.
+
+Category: Machine Learning
+Question: What is feature scaling?
+Answer: Feature scaling changes numeric features to comparable ranges so optimization can behave more reliably.
+
+Category: Machine Learning
+Question: What is a hyperparameter?
+Answer: A hyperparameter is a setting chosen before training, such as learning rate, batch size, or model depth.
+
+Category: Machine Learning
+Question: What is a prediction?
+Answer: A prediction is the output a trained model produces for a new input.
+
+Category: Machine Learning
+Question: What is generalization?
+Answer: Generalization is a model's ability to perform well on new examples that were not used for training.
+
+Category: Machine Learning
+Question: What is a confusion matrix?
+Answer: A confusion matrix is a table that summarizes correct and incorrect predictions for a classification task.
+
+Category: Machine Learning
+Question: What is a decision boundary?
+Answer: A decision boundary is the rule or surface that separates predicted classes in a model's feature space.
+
+Category: Machine Learning
+Question: What is an ensemble model?
+Answer: An ensemble model combines predictions from multiple models to improve reliability or accuracy.
+
+Category: Deep Learning
+Question: What is deep learning?
+Answer: Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns.
+
+Category: Deep Learning
+Question: What is a neural network?
+Answer: A neural network is a model made of connected layers that transform inputs into useful representations and predictions.
+
+Category: Deep Learning
+Question: What is an artificial neuron?
+Answer: An artificial neuron combines input values with learned weights and then applies an activation function.
+
+Category: Deep Learning
+Question: What is an input layer?
+Answer: An input layer receives the original features provided to a neural network.
+
+Category: Deep Learning
+Question: What is a hidden layer?
+Answer: A hidden layer transforms information between the input layer and the output layer.
+
+Category: Deep Learning
+Question: What is an output layer?
+Answer: An output layer produces the final prediction of a neural network.
+
+Category: Deep Learning
+Question: What is an activation function?
+Answer: An activation function adds nonlinearity so a neural network can learn more complex relationships.
+
+Category: Deep Learning
+Question: What is ReLU?
+Answer: ReLU is an activation function that returns zero for negative values and the input value for positive values.
+
+Category: Deep Learning
+Question: What is the sigmoid function?
+Answer: The sigmoid function maps a number to a value between zero and one.
+
+Category: Deep Learning
+Question: What is softmax?
+Answer: Softmax converts a set of scores into positive values that sum to one and can be interpreted as probabilities.
+
+Category: Deep Learning
+Question: What is gradient descent?
+Answer: Gradient descent is an optimization method that changes parameters in the direction that reduces loss.
+
+Category: Deep Learning
+Question: What is backpropagation?
+Answer: Backpropagation computes how each parameter contributed to loss by applying the chain rule through the network.
+
+Category: Deep Learning
+Question: What is a loss function?
+Answer: A loss function measures how different a model's prediction is from the desired target.
+
+Category: Deep Learning
+Question: What is a learning rate?
+Answer: A learning rate controls the size of each parameter update during optimization.
+
+Category: Deep Learning
+Question: What is a batch?
+Answer: A batch is a small group of training examples processed together in one update.
+
+Category: Deep Learning
+Question: What is an epoch?
+Answer: An epoch is one complete pass through the training dataset.
+
+Category: Deep Learning
+Question: What is dropout?
+Answer: Dropout is a regularization method that randomly disables some activations during training.
+
+Category: Deep Learning
+Question: What is batch normalization?
+Answer: Batch normalization normalizes activations using statistics from a mini-batch during training.
+
+Category: Deep Learning
+Question: What is layer normalization?
+Answer: Layer normalization normalizes features within each example, which is useful for Transformer models.
+
+Category: Deep Learning
+Question: What is weight initialization?
+Answer: Weight initialization chooses starting parameter values that help gradients and activations remain stable.
+
+Category: Deep Learning
+Question: What is a convolutional neural network?
+Answer: A convolutional neural network, or CNN, uses local filters to learn patterns in images and other grid-like data.
+
+Category: Deep Learning
+Question: What is a recurrent neural network?
+Answer: A recurrent neural network, or RNN, processes sequences while carrying information from earlier steps.
+
+Category: Deep Learning
+Question: What is an LSTM?
+Answer: An LSTM is a recurrent network with gates that help preserve useful information over longer sequences.
+
+Category: Deep Learning
+Question: What is a vanishing gradient?
+Answer: A vanishing gradient occurs when gradients become extremely small, making early layers learn slowly.
+
+Category: Deep Learning
+Question: What is an exploding gradient?
+Answer: An exploding gradient occurs when gradients become extremely large and make training unstable.
+
+Category: Deep Learning
+Question: What is a parameter?
+Answer: A parameter is a learned numerical value, such as a weight or bias, that a model updates during training.
+
+Category: Deep Learning
+Question: What is an optimizer?
+Answer: An optimizer is an algorithm that uses gradients to update model parameters.
+
+Category: Deep Learning
+Question: What is AdamW?
+Answer: AdamW is an optimizer that adapts learning rates for parameters and applies weight decay separately.
+
+Category: Deep Learning
+Question: What is a tensor?
+Answer: A tensor is a multi-dimensional array used to store data and parameters in deep learning frameworks.
+
+Category: Deep Learning
+Question: What is a GPU?
+Answer: A GPU is a processor designed for parallel calculations that can accelerate many deep learning operations.
+
+Category: NLP
+Question: What is natural language processing?
+Answer: Natural language processing, or NLP, is the field of building systems that understand, analyze, or generate human language.
+
+Category: NLP
+Question: What is tokenization?
+Answer: Tokenization splits text into smaller units called tokens that a language model can process.
+
+Category: NLP
+Question: What is a token?
+Answer: A token is a unit of text, such as a character, word, or subword, represented by an integer ID.
+
+Category: NLP
+Question: What is an embedding?
+Answer: An embedding is a learned vector that represents a token or other item as numbers useful to a model.
+
+Category: NLP
+Question: What is a word embedding?
+Answer: A word embedding is a vector representation that captures useful relationships between words from data.
+
+Category: NLP
+Question: What is sequence modeling?
+Answer: Sequence modeling predicts or interprets ordered data where earlier elements can affect later elements.
+
+Category: NLP
+Question: What is text classification?
+Answer: Text classification assigns a category to a piece of text, such as spam, topic, or sentiment.
+
+Category: NLP
+Question: What is sentiment analysis?
+Answer: Sentiment analysis identifies opinions or emotional tone in text, such as positive, negative, or neutral.
+
+Category: NLP
+Question: What is named entity recognition?
+Answer: Named entity recognition identifies mentions of entities such as people, organizations, places, and dates.
+
+Category: NLP
+Question: What is machine translation?
+Answer: Machine translation automatically converts text from one language into another language.
+
+Category: NLP
+Question: What is text generation?
+Answer: Text generation creates new text by predicting tokens one after another.
+
+Category: NLP
+Question: What is language modeling?
+Answer: Language modeling estimates which token is likely to appear next in a sequence.
+
+Category: NLP
+Question: What is a corpus?
+Answer: A corpus is a collection of text used for language analysis or model training.
+
+Category: NLP
+Question: What is vocabulary in NLP?
+Answer: Vocabulary is the set of tokens a tokenizer can recognize and convert into IDs.
+
+Category: NLP
+Question: What is out-of-vocabulary text?
+Answer: Out-of-vocabulary text contains a token that is not present in a model's tokenizer vocabulary.
+
+Category: NLP
+Question: What is text preprocessing?
+Answer: Text preprocessing prepares raw text for modeling by cleaning, normalizing, or structuring it.
+
+Category: NLP
+Question: What is a stop word?
+Answer: A stop word is a very common word that some traditional text methods choose to remove.
+
+Category: NLP
+Question: What is stemming?
+Answer: Stemming reduces related words to a shorter base form, often by removing endings.
+
+Category: NLP
+Question: What is lemmatization?
+Answer: Lemmatization converts a word to a dictionary base form while considering its meaning and grammar.
+
+Category: NLP
+Question: What is a language model?
+Answer: A language model assigns probabilities to token sequences and can predict likely next tokens.
+
+Category: Transformers
+Question: What is a Transformer?
+Answer: A Transformer is a neural network architecture that uses attention to process relationships among tokens in a sequence.
+
+Category: Transformers
+Question: What is attention?
+Answer: Attention is a mechanism that lets a model weigh which parts of an input are most relevant to a current computation.
+
+Category: Transformers
+Question: What is self-attention?
+Answer: Self-attention lets each token compare itself with other tokens in the same sequence.
+
+Category: Transformers
+Question: What are queries keys and values?
+Answer: Queries, keys, and values are learned representations used by attention to decide what information to retrieve.
+
+Category: Transformers
+Question: What is multi-head attention?
+Answer: Multi-head attention runs several attention calculations in parallel so the model can learn different relationships.
+
+Category: Transformers
+Question: What is causal masking?
+Answer: Causal masking blocks attention to future tokens so a decoder predicts using only earlier context.
+
+Category: Transformers
+Question: What is positional encoding?
+Answer: Positional encoding adds information about token order because attention alone does not know sequence positions.
+
+Category: Transformers
+Question: What is a Transformer block?
+Answer: A Transformer block combines attention, a feed-forward network, normalization, dropout, and residual connections.
+
+Category: Transformers
+Question: What is a residual connection?
+Answer: A residual connection adds a layer's input to its output so information and gradients can flow more easily.
+
+Category: Transformers
+Question: What is LayerNorm?
+Answer: LayerNorm normalizes features within a token representation to help stabilize Transformer training.
+
+Category: Transformers
+Question: What is a feed-forward network in a Transformer?
+Answer: A Transformer feed-forward network independently transforms each token representation after attention mixes context.
+
+Category: Transformers
+Question: Why do Transformers use multiple layers?
+Answer: Multiple Transformer layers allow token representations to be refined through repeated attention and nonlinear transformations.
+
+Category: Transformers
+Question: What is scaled dot-product attention?
+Answer: Scaled dot-product attention compares queries and keys, divides scores by a scale factor, and uses them to blend values.
+
+Category: Transformers
+Question: Why are attention scores scaled?
+Answer: Attention scores are scaled to keep softmax inputs from becoming too large when representations have many features.
+
+Category: Transformers
+Question: What is an attention head?
+Answer: An attention head is one independent attention calculation with its own learned query, key, and value projections.
+
+Category: Transformers
+Question: What is an attention matrix?
+Answer: An attention matrix contains weights showing how strongly each token attends to other allowed tokens.
+
+Category: Transformers
+Question: What is the context window?
+Answer: The context window is the maximum number of tokens a Transformer can consider at one time.
+
+Category: Transformers
+Question: What is a decoder-only Transformer?
+Answer: A decoder-only Transformer uses causal attention and is designed to predict the next token in a sequence.
+
+Category: Transformers
+Question: What is dropout in a Transformer?
+Answer: Dropout in a Transformer randomly removes some activations during training to reduce overfitting.
+
+Category: Transformers
+Question: What is pre-normalization?
+Answer: Pre-normalization applies LayerNorm before a Transformer sublayer rather than after its residual addition.
+
+Category: LLMs
+Question: What is a large language model?
+Answer: A large language model is a neural network trained on text to predict tokens and learn language patterns.
+
+Category: LLMs
+Question: What is pretraining?
+Answer: Pretraining is initial training on broad text data so a model learns general language patterns before a later task.
+
+Category: LLMs
+Question: What is next-token prediction?
+Answer: Next-token prediction trains a language model to predict the token that follows the current context.
+
+Category: LLMs
+Question: What is autoregressive generation?
+Answer: Autoregressive generation repeatedly predicts one new token and appends it to the context.
+
+Category: LLMs
+Question: What is fine-tuning?
+Answer: Fine-tuning continues training a pretrained or existing model on a smaller task-specific dataset.
+
+Category: LLMs
+Question: What is instruction tuning?
+Answer: Instruction tuning trains a model on instruction and response examples so it better follows requested tasks.
+
+Category: LLMs
+Question: What is a prompt?
+Answer: A prompt is the input text given to a language model before it produces a continuation or response.
+
+Category: LLMs
+Question: What is temperature in generation?
+Answer: Temperature scales output logits to control how random or conservative sampled text becomes.
+
+Category: LLMs
+Question: What is top-k sampling?
+Answer: Top-k sampling restricts generation to the k highest-scoring token choices before sampling.
+
+Category: LLMs
+Question: What is top-p sampling?
+Answer: Top-p sampling keeps the smallest set of likely tokens whose combined probability reaches a chosen threshold.
+
+Category: LLMs
+Question: What is a logit?
+Answer: A logit is an unnormalized score for a possible output token before softmax converts scores into probabilities.
+
+Category: LLMs
+Question: What is a context prompt?
+Answer: A context prompt is the sequence of tokens a language model uses to predict its next token.
+
+Category: LLMs
+Question: What is hallucination in language models?
+Answer: Hallucination is a generated statement that sounds plausible but is unsupported, incorrect, or invented.
+
+Category: LLMs
+Question: Why can language models make mistakes?
+Answer: Language models can make mistakes because they predict patterns from data rather than verify every statement against facts.
+
+Category: LLMs
+Question: What is token probability?
+Answer: Token probability is the model's estimated likelihood of choosing a particular next token in context.
+
+Category: LLMs
+Question: What is beam search?
+Answer: Beam search keeps several high-scoring partial sequences during generation instead of only one sequence.
+
+Category: LLMs
+Question: What is decoding?
+Answer: Decoding is the process of selecting output tokens from a model's predicted probability distribution.
+
+Category: LLMs
+Question: What is an instruction?
+Answer: An instruction is text that tells a model what task or response style is desired.
+
+Category: LLMs
+Question: What is a response token?
+Answer: A response token is a token generated as part of a model's answer after a prompt.
+
+Category: LLMs
+Question: Why does context length matter?
+Answer: Context length matters because it limits how much earlier text a model can use when making a prediction.
+
+Category: Python
+Question: What is a Python variable?
+Answer: A Python variable is a name that refers to a value stored in memory.
+
+Category: Python
+Question: What is a Python list?
+Answer: A Python list is an ordered mutable collection that can hold values of different types.
+
+Category: Python
+Question: What is a Python tuple?
+Answer: A Python tuple is an ordered immutable collection of values.
+
+Category: Python
+Question: What is a Python dictionary?
+Answer: A Python dictionary stores key-value pairs and allows values to be retrieved by key.
+
+Category: Python
+Question: What is a Python set?
+Answer: A Python set is an unordered collection that stores unique values.
+
+Category: Python
+Question: What is a Python function?
+Answer: A Python function is a reusable block of code that can accept inputs and return a result.
+
+Category: Python
+Question: What is a Python class?
+Answer: A Python class is a blueprint for creating objects with data and behavior.
+
+Category: Python
+Question: What is inheritance in Python?
+Answer: Inheritance lets one class reuse and extend behavior from another class.
+
+Category: Python
+Question: What is an exception in Python?
+Answer: An exception is an event that interrupts normal program flow when an error or special condition occurs.
+
+Category: Python
+Question: What is a Python module?
+Answer: A Python module is a file containing reusable Python code that can be imported into another program.
+
+Category: Python
+Question: What is a Python package?
+Answer: A Python package is a directory of related Python modules, usually identified by an initialization file.
+
+Category: Python
+Question: What is a Python string?
+Answer: A Python string is an ordered sequence of characters used to represent text.
+
+Category: Python
+Question: What is a Python integer?
+Answer: A Python integer is a whole number value with no fractional part.
+
+Category: Python
+Question: What is a Python float?
+Answer: A Python float is a number that can represent a fractional value.
+
+Category: Python
+Question: What is a Boolean value in Python?
+Answer: A Boolean value is either True or False.
+
+Category: Python
+Question: What is a Python loop?
+Answer: A Python loop repeats a block of code while iterating over values or while a condition is true.
+
+Category: Python
+Question: What is a for loop in Python?
+Answer: A for loop iterates over items in a sequence or other iterable object.
+
+Category: Python
+Question: What is a while loop in Python?
+Answer: A while loop repeats code as long as its condition evaluates to true.
+
+Category: Python
+Question: What is an import statement?
+Answer: An import statement makes names from another module available in the current program.
+
+Category: Python
+Question: What is a virtual environment?
+Answer: A virtual environment is an isolated Python installation for a project's dependencies.
+
+Category: Data Science
+Question: What is data science?
+Answer: Data science combines statistics, programming, and domain knowledge to learn from data and support decisions.
+
+Category: Data Science
+Question: What is data preprocessing?
+Answer: Data preprocessing cleans and transforms raw data before analysis or model training.
+
+Category: Data Science
+Question: What are missing values?
+Answer: Missing values are data entries that are absent, unknown, or not recorded.
+
+Category: Data Science
+Question: What is normalization in data science?
+Answer: Normalization rescales values to a common range, often between zero and one.
+
+Category: Data Science
+Question: What is standardization?
+Answer: Standardization transforms values to have a chosen center and spread, often mean zero and standard deviation one.
+
+Category: Data Science
+Question: What is a train-test split?
+Answer: A train-test split separates data used for fitting a model from data used for final evaluation.
+
+Category: Data Science
+Question: What is feature engineering?
+Answer: Feature engineering creates or transforms input variables so a model can learn useful patterns more effectively.
+
+Category: Data Science
+Question: What is exploratory data analysis?
+Answer: Exploratory data analysis uses summaries and visualizations to understand data before formal modeling.
+
+Category: Data Science
+Question: What is a data distribution?
+Answer: A data distribution describes how values occur, vary, and relate within a dataset.
+
+Category: Data Science
+Question: What is an outlier?
+Answer: An outlier is an observation that differs strongly from most other values in a dataset.
+
+Category: Data Science
+Question: What is a histogram?
+Answer: A histogram is a chart that groups numeric values into ranges to show their frequency.
+
+Category: Data Science
+Question: What is correlation?
+Answer: Correlation measures how two variables tend to change together.
+
+Category: Data Science
+Question: What is causation?
+Answer: Causation means that a change in one factor directly produces a change in another factor.
+
+Category: Data Science
+Question: What is a data pipeline?
+Answer: A data pipeline is a sequence of steps that collects, transforms, stores, and prepares data for use.
+
+Category: Data Science
+Question: What is data quality?
+Answer: Data quality describes whether data is accurate, complete, consistent, timely, and suitable for a purpose.
+
+Category: Data Science
+Question: What is a database?
+Answer: A database is an organized system for storing and retrieving structured information.
+
+Category: Data Science
+Question: What is a CSV file?
+Answer: A CSV file is a plain text table format that separates values with commas.
+
+Category: Data Science
+Question: What is data visualization?
+Answer: Data visualization communicates data patterns through charts, graphs, maps, or other visual forms.
+
+Category: Data Science
+Question: What is descriptive statistics?
+Answer: Descriptive statistics summarize a dataset using measures such as count, mean, median, and spread.
+
+Category: Data Science
+Question: What is a data sample?
+Answer: A data sample is a smaller subset of observations selected from a larger population or dataset.
+
+Category: LLMs
+Question: What is a context window?
+Answer: A context window is the maximum number of tokens that a language model can consider at once.
+
+Category: LLMs
+Question: What is temperature in language generation?
+Answer: Temperature controls randomness in generation; higher values produce more diverse outputs, lower values more predictable.
+
+Category: LLMs
+Question: What is perplexity?
+Answer: Perplexity measures how confident a language model is in its predictions, with lower values indicating better performance.
+
+Category: LLMs
+Question: What is a beam search?
+Answer: Beam search explores multiple candidate sequences in parallel to find a high-quality completion.
+
+Category: Transformers
+Question: What is token embedding?
+Answer: Token embedding is a learned vector representation for each token in a model's vocabulary.
+
+Category: Transformers
+Question: What is an embedding dimension?
+Answer: An embedding dimension is the size of the vector representation for each token.
+
+Category: Transformers
+Question: What is a vocabulary?
+Answer: A vocabulary is the complete set of tokens that a tokenizer recognizes and can convert into IDs.
+
+Category: Transformers
+Question: What is an attention score?
+Answer: An attention score measures the relevance or similarity between a query and a key in the attention mechanism.
+
+Category: NLP
+Question: What is a subword tokenizer?
+Answer: A subword tokenizer breaks rare words into smaller pieces so they can be represented by common tokens.
+
+Category: NLP
+Question: What is byte pair encoding?
+Answer: Byte pair encoding starts with characters and repeatedly merges the most common adjacent pairs into new tokens.
+
+Category: Python
+Question: What is object-oriented programming?
+Answer: Object-oriented programming organizes code using objects and classes to represent real-world concepts.
+
+Category: Python
+Question: What is a lambda function in Python?
+Answer: A lambda function is a small anonymous function created with the lambda keyword.
+
+Category: Python
+Question: What is list comprehension?
+Answer: List comprehension creates a new list by applying an expression to each item in an existing sequence.
+
+Category: Python
+Question: What is a decorator in Python?
+Answer: A decorator is a function that modifies another function or class without changing its source code.
+
+Category: Machine Learning
+Question: What is a decision tree?
+Answer: A decision tree is a model that makes predictions by recursively splitting data based on feature values.
+
+Category: Machine Learning
+Question: What is a random forest?
+Answer: A random forest combines many decision trees to improve prediction accuracy and reduce overfitting.
+
+Category: Machine Learning
+Question: What is a support vector machine?
+Answer: A support vector machine finds a boundary that best separates data points of different classes.
+
+Category: Deep Learning
+Question: What is a convolutional filter?
+Answer: A convolutional filter is a small learnable matrix that detects local patterns in input data.
+
+Category: Deep Learning
+Question: What is stride in a convolution?
+Answer: Stride controls how far a convolutional filter moves across the input at each step.
+
+Category: Deep Learning
+Question: What is pooling?
+Answer: Pooling reduces the size of feature maps by selecting representative values from regions.
+
+Category: Deep Learning
+Question: What is an autoencoder?
+Answer: An autoencoder is a neural network trained to compress data into a smaller representation and then reconstruct it.

@@ -147,6 +147,201 @@ python -m pytest tests/test_multi_head_attention.py tests/test_feed_forward.py t
 
 MiniGPT is a learning project, not a modern production LLM. It has a very small dataset and model, a character-level tokenizer, CPU-oriented short training, limited context, and poor language quality. It has no instruction tuning, RLHF, large-scale pretraining, factual retrieval, or external knowledge source.
 
+## Phase 6: Training Improvements
+
+In Phase 6, we improved the model's generation quality without changing its unde![Architecture Diagram](docs/assets/architecture.png) The original model generated poor, repetitive answers because its dataset was extremely small (201 examples) and the learning strategy was naive. 
+
+To fix this, we implemented several improvements:
+- **Expanded Dataset**: We increased the dataset to 510 high-quality, structured Q&A examples. More data gives the model a wider linguistic distribution to learn from, reducing overfitting and repetitive loops.
+- **AdamW & Cosine Learning Rate Decay**: We adopted the AdamW optimizer with a cosine learning rate decay scheduler. This allows the model to take large steps early on to escape bad local minima, then fine-tune its weights as the learning rate smoothly decays towards zero.
+- **Linear Warmup**: We added a warmup phase that linearly increases the learning rate at the start of training. This prevents early massive gradients from destabilizing the randomly initialized weights.
+- **Gradient Clipping**: We clamp gradients to a maximum norm to prevent exploding gradients.
+- **Evaluation Isolation**: We keep the baseline checkpoint to explicitly compare metrics and generation outputs. We measure objective improvements via validation perplexity and generation metrics like unique token ratio and repeated n-grams.
+
+Despite these improvements, there are intrinsic limitations: training a 1M parameter model from scratch on CPU with limited context will not rival modern LLMs.
+
 ## Future improvements
 
 Reasonable next steps are a larger corpus, a subword tokenizer, a larger model, longer GPU training, learning-rate scheduling, checkpoint resume, stronger evaluation, a longer context window, instruction tuning, and additional generation strategies.
+
+## MiniGPT Commerce Agent (Phase 7)
+
+Phase 7 adds an isolated, deterministic product-comparison foundation. It does not alter MiniGPT v2's BPE tokenizer, Transformer, training pipeline, or checkpoints.
+
+```text
+User Query
+    ↓
+Requirement Parser
+    ↓
+Product Search
+    ↓
+Product Normalization
+    ↓
+Cross-Platform Comparison
+    ↓
+Recommendation Engine
+    ↓
+Recommendation
+```
+
+**CURRENT PHASE USES MOCK DATA.** The catalog has 102 synthetic listings across Amazon, Flipkart, and Meesho labels. Amazon, Flipkart, and Meesho are **not** queried live; prices, ratings, URLs, and availability are fabricated solely for safe, repeatable testing.
+
+The foundation supports category, maximum-price, minimum-rating, brand, and platform filtering; deterministic name grouping; and a configurable recommendation formula:
+
+```text
+score = 0.35 × price_score + 0.30 × rating_score
+      + 0.15 × review_score + 0.20 × requirement_match
+```
+
+The rule-based requirement parser can identify common categories, INR budgets, simple product features, and use cases such as programming or gaming. Run the demonstration with:
+
+```bash
+python -m experiments.commerce_demo
+```
+
+The eventual architecture can support real product sources only through compliant APIs or otherwise permitted data sources.
+
+## Commerce Assistant (Phase 8)
+
+Phase 8 evolves the Phase 7 comparison foundation into an offline, explainable shopping-assistant architecture. It remains completely separate from MiniGPT v1/v2 training, BPE, Transformer code, and checkpoints.
+
+```text
+Shopping query → Rule-based query understanding → Marketplace provider adapters
+              → Normalized listings → Likely-product matching → Transparent scoring
+              → Best match, alternatives, comparison table, and explanation
+```
+
+The provider interface (`MarketplaceProvider`) supplies `search_products`, `get_product`, and `normalize_product`. The Amazon, Flipkart, and Meesho adapters all use the same reusable mock-provider implementation and the existing synthetic catalog—there is no web scraping, browser automation, or live marketplace request.
+
+The richer parser extracts category, INR budget (including `70k`), brand, minimum rating, use case, and simple requested features. Likely equivalence is a deterministic confidence heuristic based on normalized brand/title/category and feature similarity; it is not claimed to be perfect matching.
+
+Phase 8 recommendation scoring is configurable and reports every component:
+
+```text
+30% price + 25% rating + 15% reviews + 20% feature match + 10% requirement match
+```
+
+Use the interactive terminal assistant:
+
+```bash
+python -m app.commerce_cli
+```
+
+For the ten-query offline evaluation run:
+
+```bash
+python -m experiments.commerce_phase8_evaluation
+```
+
+**Current:** offline synthetic product data only. Prices and availability are not live, verified marketplace information.
+
+**Future:** a legitimate marketplace API or permitted data provider can implement the same provider interface. Live prices must not be claimed unless such a source is actually connected.
+
+## Commerce Decision Agent (Phase 9)
+
+Phase 9 adds a modular, explicit multi-step decision agent over the same offline catalog:
+
+```text
+Query → plan → validate → provider search → hard-constraint filter
+      → equivalent-product matching → comparison → transparent scoring
+      → recommendation, explanation, and alternatives
+```
+
+```bash
+python -m experiments.commerce_phase9_evaluation
+```
+
+**Current:** offline synthetic marketplace data. **Not implemented:** live APIs, scraping, browser automation, purchasing, payments, account access, or external LLM APIs.
+
+## Explainable Commerce Decision Assistant (Phase 10)
+
+Phase 10 polishes the offline agent into an evaluation-driven decision assistant without changing its mock-data boundary. Rich comparisons expose each listing’s product, brand, category, platform, price, rating, review count, relevant structured features, requirement match, price/rating difference, and deterministic value score.
+
+Every recommendation now exposes price/rating/review/feature/requirement score components plus the configured weights. Its factual explanation covers hard constraints, use case, price, rating, reviews, features, a trade-off, and a score-based reason alternatives rank lower. The structured decision trace reports concise actions and factual metadata only; it does not expose hidden reasoning.
+
+The terminal agent supports `Why this one?`, `Show alternatives`, `Only HP`, `Make the budget 70000`, `What if I need 16GB RAM?`, and `Which is cheapest?`. No-result responses retain hard constraints and provide only safe relaxation suggestions.
+
+The provider contract now includes offline `search`, `get_product`, `availability`, and `price` operations, so compliant future sources can adopt the same interface. Run the 20-scenario Phase 10 evaluation with:
+
+```bash
+python -m experiments.commerce_phase10_evaluation
+```
+
+**Current Amazon/Flipkart/Meesho data is synthetic/offline mock data. No live marketplace prices or availability are retrieved.** Future providers must use legitimate permitted APIs/data sources; scraping, browser automation, purchasing, payments, and external LLM APIs are not implemented.
+
+# MiniGPT AI Commerce Agent
+
+## Overview
+MiniGPT started as a tiny character‑level Transformer language model and has grown into an AI‑assisted commerce decision system. The project now combines a custom language model (MiniGPT v2) with a deterministic, rule‑based commerce engine that can compare products across multiple marketplaces. **The language model is educational and not production‑ready**, and the commerce engine uses synthetic offline data.
+
+## Project Evolution
+
+MiniGPT v1
+↓
+MiniGPT v2
+├── Phase 1 — Q&A Dataset
+├── Phase 2 — BPE Tokenizer
+├── Phase 3 — BPE MiniGPT Architecture
+├── Phase 4 — Training Pipeline
+├── Phase 5 — Text Generation
+└── Phase 6 — Data & Training Improvement
+↓
+Commerce Agent
+├── Phase 7 — Product Comparison Foundation
+├── Phase 8 — Query Understanding & Recommendation
+├── Phase 9 — Agentic Shopping Workflow
+├── Phase 10 — Comparison & Explanation
+└── Phase 11 — Marketplace Integration Foundation
+
+## Architecture
+
+**MiniGPT V2 Pipeline**
+```
+Dataset → BPE Tokenizer → Transformer → Training → Generation → Evaluation
+```
+
+**Commerce Pipeline**
+```
+User Query → Query Understanding → Agent / Decision Engine → Search Orchestrator → Marketplace Providers → Normalized Products → Filtering/Matching → Comparison → Recommendation → Explanation
+```
+
+The MiniGPT language model and the commerce engine are separate; the commerce decisions are driven by deterministic rules and provider metadata, not by the language model.
+
+## Key Features
+- Custom Transformer language model (character‑level → BPE tokenizer)
+- Supervised Q&A training and evaluation
+- Dataset‑quality analysis tools
+- Cross‑marketplace product comparison using a provider abstraction layer
+- Natural‑language requirement parsing with hard/soft constraints
+- Rule‑based recommendation scoring and explainable outputs
+- Agentic multi‑step shopping workflow
+- Provider‑level error handling and mock fallback architecture
+- Data‑source metadata (mock vs future live providers)
+
+## Commerce Data Disclaimer
+The current Amazon, Flipkart, and Meesho catalogs are **synthetic offline mock data**. The system does **not** scrape live marketplaces, access user accounts, make purchases, process payments, or use unauthorized APIs. Phase 11 only adds an architecture for future authorized integrations.
+
+## Technology Stack
+- Python 3.11+
+- PyTorch for the language model
+- Standard library and custom code for the commerce engine
+- No external LLM APIs or web‑scraping libraries
+
+## Testing
+The test suite includes 220 + passing tests covering MiniGPT v2 and all commerce phases up to Phase 11. No new test failures were introduced after adding Phase 11.
+
+## Limitations
+- MiniGPT v2 is a small educational model with limited capacity and data.
+- Commerce engine relies on offline synthetic product data.
+- Recommendations are deterministic and based on rule‑based scoring.
+- No live marketplace access or real‑time pricing.
+
+## Future Work (high‑level)
+- Integration with authorized marketplace APIs
+- Real‑time pricing and availability
+- richer product matching heuristics
+- stronger recommendation models (e.g., learning‑to‑rank)
+- production‑scale language model
+- optional web or GUI interface
+
+![MiniGPT AI Commerce Agent Architecture](docs/assets/architecture.svg)
