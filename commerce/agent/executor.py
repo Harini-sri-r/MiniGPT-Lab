@@ -142,6 +142,12 @@ def _alternatives(state: ShoppingState) -> dict[str, dict]:
 
 
 def _closest_relaxed_constraints(products: list[NormalizedProduct], state: ShoppingState) -> list[str]:
+    if not products:
+        return []
+    nearest = min(products, key=lambda product: len(hard_constraint_failures(product, state)))
+    failures = hard_constraint_failures(nearest, state)
+    # Ensure at least one constraint is reported for user feedback.
+    return failures if failures else ["unsatisfied_constraints"]
     if not products: return []
     nearest = min(products, key=lambda product: len(hard_constraint_failures(product, state)))
     return hard_constraint_failures(nearest, state)

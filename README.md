@@ -149,7 +149,7 @@ MiniGPT is a learning project, not a modern production LLM. It has a very small 
 
 ## Phase 6: Training Improvements
 
-In Phase 6, we improved the model's generation quality without changing its underlying Transformer architecture. The original model generated poor, repetitive answers because its dataset was extremely small (201 examples) and the learning strategy was naive. 
+In Phase 6, we improved the model's generation quality without changing its unde![Architecture Diagram](docs/assets/architecture.png) The original model generated poor, repetitive answers because its dataset was extremely small (201 examples) and the learning strategy was naive. 
 
 To fix this, we implemented several improvements:
 - **Expanded Dataset**: We increased the dataset to 510 high-quality, structured Q&A examples. More data gives the model a wider linguistic distribution to learn from, reducing overfitting and repetitive loops.
@@ -246,18 +246,6 @@ Query → plan → validate → provider search → hard-constraint filter
       → equivalent-product matching → comparison → transparent scoring
       → recommendation, explanation, and alternatives
 ```
-
-The agent stores an inspectable `ShoppingState` including the query, parsed requirements, plan, raw and filtered listings, matched groups, comparisons, recommendations, selected product, alternatives, and structured reasoning-step results. Each execution reports `success`, `no_results`, or `invalid_request` instead of crashing.
-
-Category, budget, explicitly named brand, minimum rating, and explicit technical features such as `16GB RAM` are hard constraints. Rating, reviews, price preference, use case, and descriptive preferences such as “good camera” are scored transparently as soft preferences. If no candidate meets the hard constraints, the agent reports that explicitly and names the closest constraint relaxation; it never silently recommends an invalid listing.
-
-Run the conversational agent (including an optional trace):
-
-```bash
-python -m app.commerce_agent_cli --trace
-```
-
-It supports follow-ups such as “What about HP?”, “Increase budget to 70000”, and “Which one is cheapest?” by updating explicit state and recalculating. The 15-scenario offline evaluation is available with:
 
 ```bash
 python -m experiments.commerce_phase9_evaluation
